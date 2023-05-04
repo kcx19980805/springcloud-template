@@ -1,0 +1,2 @@
+# springcloud-template
+一个企业级的，实现了springcloud+springcloudalibaba大部分功能的分布式项目骨架，用于搭建多线程高并发应用,代码示例了一个简单数据库案例的运行，几乎所有依赖都在common中，且提供了包括http请求，多线程，文件处理等工具类，可直接在上面搭建自己的后端项目
