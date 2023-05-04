@@ -1,0 +1,1392 @@
+2023-05-03 10:23:34,845 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 10:23:34,848 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 10:23:49,636 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683080614594
+
+2023-05-03 10:24:04,766 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 10:24:04,766 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 10:25:54,360 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 10:25:54,360 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 10:43:51,672 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683081815534
+
+2023-05-03 10:44:06,696 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 10:44:06,696 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 10:58:51,137 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 10:58:51,137 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 11:23:03,402 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@DEFAULT_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683084167243
+
+2023-05-03 11:23:12,353 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:23:12,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 11:23:18,421 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 11:23:18,421 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 11:29:22,938 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@DEFAULT_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683084547696
+
+2023-05-03 11:29:37,965 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 11:29:37,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 11:56:06,658 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:06,663 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 11:56:19,072 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:19,072 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 11:56:30,514 INFO DEFAULT_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:30,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 11:56:38,420 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:38,420 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 11:56:47,184 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:47,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 11:56:53,047 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:56:53,047 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 11:57:08,253 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:57:08,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 11:57:14,535 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 11:57:14,535 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 12:19:33,634 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 12:21:20,740 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 12:21:24,383 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@DEFAULT_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683087669289
+
+2023-05-03 12:21:25,386 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_false,
+
+2023-05-03 12:21:30,386 INFO service: DEFAULT_GROUP@@task-producer {POS} {IP-ENABLED} valid: 192.168.1.5:8890@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 12:30:05,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 12:30:14,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 12:37:01,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 12:37:05,779 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 12:37:21,003 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@DEFAULT_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683088624790
+
+2023-05-03 12:37:21,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_false,
+
+2023-05-03 12:37:23,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 12:37:26,121 INFO service: DEFAULT_GROUP@@task-producer {POS} {IP-ENABLED} valid: 192.168.1.5:8890@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 12:51:37,339 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@DEFAULT_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683089481726
+
+2023-05-03 12:51:38,493 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683089481689
+
+2023-05-03 12:51:40,052 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683089481472
+
+2023-05-03 12:51:40,879 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@DEFAULT_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683089481698
+
+2023-05-03 12:51:41,145 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@DEFAULT_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683089484225
+
+2023-05-03 12:51:41,445 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683089481914
+
+2023-05-03 12:51:42,010 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683089484944
+
+2023-05-03 12:51:44,051 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683089485931
+
+2023-05-03 12:51:52,616 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:52,616 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 12:51:53,529 INFO DEFAULT_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:53,529 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 
+
+2023-05-03 12:51:55,068 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:55,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 12:51:55,897 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:55,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 12:51:56,175 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:56,175 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 12:51:56,461 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:56,461 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2023-05-03 12:51:57,033 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:57,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 12:51:59,090 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 12:51:59,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 13:43:50,232 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:43:50,232 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 13:44:09,847 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:44:09,847 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 13:45:43,281 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:45:43,281 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 13:46:09,388 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:46:09,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 13:46:16,753 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:46:16,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 13:46:54,885 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:46:54,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 13:47:13,329 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 13:47:13,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 13:52:50,420 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@DEFAULT_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683093150542
+
+2023-05-03 13:52:50,752 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683093150822
+
+2023-05-03 13:52:51,137 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683093151253
+
+2023-05-03 13:52:52,388 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@DEFAULT_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683093152512
+
+2023-05-03 13:52:53,975 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@DEFAULT_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683093153983
+
+2023-05-03 13:52:54,043 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683093154059
+
+2023-05-03 13:52:55,030 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683093155125
+
+2023-05-03 13:53:03,987 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:03,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 13:53:04,067 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:04,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 13:53:05,451 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:05,451 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 13:53:05,789 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:05,789 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 13:53:06,168 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:06,168 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2023-05-03 13:53:07,424 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:07,424 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 13:53:10,059 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 13:53:10,059 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 14:50:07,125 INFO DEFAULT_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:50:07,129 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 14:50:42,631 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:50:42,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 14:51:28,570 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:51:28,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 14:51:46,266 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:51:46,266 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 14:52:05,948 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:52:05,948 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 14:52:19,732 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:52:19,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 14:52:27,495 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 14:52:27,495 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 15:04:08,941 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 15:04:08,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 15:14:41,889 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683098065841
+
+2023-05-03 15:14:46,519 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-03 15:14:51,520 INFO service: DEFAULT_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 15:20:22,470 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683098406825
+
+2023-05-03 15:20:26,584 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-03 15:20:31,593 INFO service: DEFAULT_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 15:24:22,836 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683098646946
+
+2023-05-03 15:24:27,282 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-03 15:24:28,219 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 15:24:32,283 INFO service: DEFAULT_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 15:26:32,675 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 16:26:47,560 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:26:47,560 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 16:26:47,612 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:26:47,612 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 16:26:47,776 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:26:47,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 16:26:47,982 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:26:47,982 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 16:26:48,048 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:26:48,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 16:26:56,861 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683102401266
+
+2023-05-03 16:27:02,204 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:02,204 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 16:27:03,655 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:03,655 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 16:27:04,202 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:04,202 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 16:27:04,338 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:04,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 16:27:06,175 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:06,175 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 16:27:06,682 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:06,682 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 16:27:06,719 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:06,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 16:27:06,719 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:06,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 16:27:08,478 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:08,478 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 16:27:08,479 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:08,479 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 16:27:12,116 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 16:27:12,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 16:27:20,837 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:20,837 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 16:27:23,149 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:23,149 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 16:27:24,322 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:24,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 16:27:26,891 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:26,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 16:27:28,119 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:28,119 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 16:27:37,481 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:27:37,481 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 16:31:14,258 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683102658219
+
+2023-05-03 16:31:15,512 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-03 16:31:16,944 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683102660924
+
+2023-05-03 16:31:19,215 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-03 16:31:20,528 INFO service: DEFAULT_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:31:24,231 INFO service: DEFAULT_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:37:12,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 16:40:12,782 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683103197454
+
+2023-05-03 16:40:14,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-03 16:40:18,462 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683103203174
+
+2023-05-03 16:40:19,903 INFO service: DEFAULT_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:40:23,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 16:40:28,232 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:46:39,070 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683103583460
+
+2023-05-03 16:46:41,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 16:46:46,424 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:48:30,420 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:48:30,420 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 16:48:53,483 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 16:48:53,483 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 16:54:04,804 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683104028663
+
+2023-05-03 16:54:08,817 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 16:54:13,821 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 16:58:38,473 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 17:00:18,179 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 17:03:01,698 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 17:03:05,741 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683104569432
+
+2023-05-03 17:03:10,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:03:15,358 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:05:10,953 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683104695474
+
+2023-05-03 17:05:14,956 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:05:19,969 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:09:36,397 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683104960129
+
+2023-05-03 17:09:41,992 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:09:46,995 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:11:34,781 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 17:14:06,808 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105229882
+
+2023-05-03 17:14:06,954 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:14:26,935 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:14:31,949 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:15:51,948 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105331998
+
+2023-05-03 17:15:52,852 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:15:57,866 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:19:17,314 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105538190
+
+2023-05-03 17:19:18,623 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:19:23,628 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:20:12,405 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105593665
+
+2023-05-03 17:20:14,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:20:19,442 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:21:07,484 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105649457
+
+2023-05-03 17:21:09,887 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:21:14,901 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:22:27,644 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105729958
+
+2023-05-03 17:22:31,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:22:36,126 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:24:12,806 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105836167
+
+2023-05-03 17:24:17,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:24:22,080 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:25:22,915 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683105907135
+
+2023-05-03 17:25:25,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:25:30,700 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:27:33,105 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683106035867
+
+2023-05-03 17:27:37,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:27:42,040 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:30:33,405 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683106217215
+
+2023-05-03 17:30:36,654 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:30:41,671 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:31:58,524 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683106301719
+
+2023-05-03 17:32:02,409 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:32:07,416 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:34:13,730 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683106437577
+
+2023-05-03 17:34:15,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:34:20,239 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:35:13,825 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683106495295
+
+2023-05-03 17:35:16,399 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:35:21,407 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:42:09,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 17:49:45,631 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:45,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:49:45,820 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:45,820 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:49:45,958 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:45,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:49:46,085 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:46,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:49:46,100 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:46,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:49:55,392 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683107379576
+
+2023-05-03 17:49:59,086 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:49:59,086 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:50:00,919 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:00,919 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:50:01,256 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:01,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:50:01,686 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:01,686 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:50:02,160 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:02,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:50:03,010 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:03,010 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:50:03,411 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:03,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:50:03,796 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:03,796 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:50:03,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:50:04,657 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:04,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:50:05,868 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:05,868 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:50:08,940 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:50:16,717 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:16,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:50:19,212 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:19,212 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:50:19,761 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:19,761 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:50:20,355 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:20,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:50:23,416 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:50:23,416 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:53:42,682 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:42,682 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:53:42,830 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:42,830 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:53:43,319 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:43,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:53:43,452 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:43,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:53:43,452 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:43,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:53:55,835 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683107619075
+
+2023-05-03 17:53:58,444 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:58,444 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:53:59,013 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:53:59,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:54:00,044 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:00,044 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:54:00,179 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:00,179 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:54:00,224 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:00,224 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:54:00,456 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:00,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:54:00,691 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:54:01,139 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:01,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:54:01,909 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:01,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:54:02,014 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:02,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:54:02,034 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:02,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:54:05,710 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:54:17,090 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:17,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:54:19,724 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:19,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:54:19,851 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:19,851 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:54:19,854 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:19,854 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:54:19,885 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:54:19,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:55:00,423 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:00,423 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:55:00,562 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:00,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:55:00,573 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:00,573 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:55:00,741 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:00,741 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:55:00,930 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:00,931 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:55:10,961 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683107695818
+
+2023-05-03 17:55:17,409 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:17,409 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:55:18,567 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 17:55:19,247 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:19,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:55:19,303 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:19,303 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:55:19,404 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:19,404 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:55:19,447 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:19,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:55:21,232 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:21,232 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:55:21,256 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:21,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:55:21,397 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:21,397 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:55:23,579 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:55:37,682 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:37,682 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:55:39,656 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:39,656 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:55:39,787 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:39,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:55:39,885 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:39,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:55:40,191 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683107722574
+
+2023-05-03 17:55:41,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-03 17:55:41,800 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:55:41,800 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:55:46,556 INFO service: DEFAULT_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:57:42,487 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,487 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:57:42,541 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:57:42,619 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,619 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:57:42,660 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,661 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 17:57:42,686 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,686 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:57:42,778 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:42,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:57:55,402 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683107856657
+
+2023-05-03 17:57:56,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-03 17:57:57,437 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:57,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:57:59,704 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:59,704 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:57:59,764 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:57:59,764 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 17:58:00,533 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:00,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 17:58:00,652 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:00,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:58:00,981 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:00,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:58:01,133 INFO service: DEFAULT_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 17:58:01,893 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:01,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 17:58:02,520 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:02,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:58:02,567 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:02,567 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 17:58:02,609 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:02,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 17:58:02,763 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:02,763 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 17:58:03,630 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:03,630 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 17:58:24,524 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:24,524 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 17:58:26,972 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:26,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 17:58:27,602 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:27,602 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 17:58:28,234 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:28,234 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 17:58:29,552 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:29,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 17:58:29,872 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 17:58:29,872 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 17:59:13,108 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 18:00:39,522 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 18:06:44,986 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 18:08:24,895 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:24,895 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 18:08:24,905 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:24,905 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 18:08:25,095 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:25,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 18:08:25,359 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:25,359 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 18:08:25,601 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:25,601 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 18:08:37,323 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683108498592
+
+2023-05-03 18:08:46,312 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:46,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 18:08:47,073 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 18:08:49,806 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:49,806 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 18:08:52,147 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 18:08:52,398 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:52,398 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 18:08:54,022 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:54,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 18:08:55,139 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:55,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 18:08:56,086 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:56,086 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 18:08:57,462 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:57,462 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 18:08:58,001 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:58,001 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 18:08:58,975 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:58,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 18:08:59,754 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:08:59,754 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 18:09:05,469 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:09:05,469 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 18:10:03,516 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:10:03,516 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 18:10:12,750 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:10:12,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 18:10:18,573 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:10:18,573 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 18:10:35,318 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:10:35,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 18:10:42,610 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683108627385
+
+2023-05-03 18:10:55,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 18:11:00,649 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 18:26:12,740 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2023-05-03 18:32:46,056 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2023-05-03 18:47:26,676 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:26,679 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 18:47:26,828 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:26,828 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 18:47:31,112 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:31,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 18:47:35,856 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:35,856 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 18:47:38,711 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:38,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 18:47:41,722 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:41,722 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 18:47:44,368 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:44,368 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 18:47:46,276 INFO DEFAULT_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 18:47:46,276 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 18:52:46,795 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683111151416
+
+2023-05-03 18:52:47,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-03 18:52:52,975 INFO service: DEFAULT_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 19:00:50,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 19:05:28,513 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2023-05-03 19:06:23,544 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,548 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 19:06:23,551 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 19:06:23,551 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 19:06:23,552 INFO DEFAULT_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 19:06:23,552 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 19:06:23,553 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,553 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 19:06:23,553 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:23,553 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 19:06:25,078 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:06:25,078 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 19:22:22,755 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:22,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 19:22:23,156 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,156 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 19:22:23,226 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,226 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 19:22:23,229 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 19:22:23,239 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 19:22:23,302 INFO DEFAULT_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,302 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 19:22:23,325 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,325 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 19:22:23,342 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 19:22:23,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 19:46:30,440 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 19:46:30,440 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.233.1:8091_true,
+
+2023-05-03 19:54:41,250 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683114864408
+
+2023-05-03 19:54:51,523 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-03 19:54:56,526 INFO service: DEFAULT_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 20:26:09,358 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 20:26:09,358 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2023-05-03 20:31:29,784 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 20:31:29,784 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.233.1:8091_true,
+
+2023-05-03 21:04:27,503 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@DEFAULT_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683119051544
+
+2023-05-03 21:04:27,819 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@DEFAULT_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683119051841
+
+2023-05-03 21:04:27,943 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@DEFAULT_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683119052059
+
+2023-05-03 21:04:27,991 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@DEFAULT_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683119052031
+
+2023-05-03 21:04:28,069 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@DEFAULT_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683119052255
+
+2023-05-03 21:04:28,069 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683119052379
+
+2023-05-03 21:04:28,069 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683119052249
+
+2023-05-03 21:04:32,959 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683119054057
+
+2023-05-03 21:04:42,636 INFO DEFAULT_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:42,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-producer, ips: 
+
+2023-05-03 21:04:42,862 INFO DEFAULT_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:42,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-admin, ips: 
+
+2023-05-03 21:04:42,988 INFO DEFAULT_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:42,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-third, ips: 
+
+2023-05-03 21:04:43,034 INFO DEFAULT_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:43,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-consumer, ips: 
+
+2023-05-03 21:04:43,096 INFO DEFAULT_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:43,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@job, ips: 
+
+2023-05-03 21:04:43,097 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:43,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-03 21:04:43,098 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:43,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2023-05-03 21:04:47,995 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 21:04:47,995 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 21:06:28,094 INFO {POS} {IP-DISABLED} valid: 192.168.233.1:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1683119168556
+
+2023-05-03 21:06:43,133 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_false_false_default]
+
+2023-05-03 21:06:43,133 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2023-05-03 21:08:10,354 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 21:08:10,354 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.233.1:8091_true,
+
+2023-05-03 21:23:37,717 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:23:37,717 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 21:24:35,375 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:24:35,375 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-03 21:24:40,828 INFO SEATA_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:24:40,828 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-03 21:24:42,361 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:24:42,361 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-03 21:24:50,392 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:24:50,392 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 21:24:58,131 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:24:58,131 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-03 21:25:03,739 INFO SEATA_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:25:03,739 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-03 21:25:08,336 INFO SEATA_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 21:25:08,336 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 21:48:59,712 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683121723348
+
+2023-05-03 21:49:01,948 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-03 21:49:06,951 INFO service: SEATA_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 21:49:15,578 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-03 21:49:20,149 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683121743704
+
+2023-05-03 21:49:22,191 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-03 21:49:27,194 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 21:53:37,537 INFO {POS} {IP-DISABLED} valid: 192.168.233.1:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1683122000405
+
+2023-05-03 21:53:52,561 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_false_false_default]
+
+2023-05-03 21:53:52,561 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2023-05-03 22:19:43,631 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683123566651
+
+2023-05-03 22:19:44,073 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@SEATA_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683123565904
+
+2023-05-03 22:19:45,579 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683123567277
+
+2023-05-03 22:19:45,579 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683123567249
+
+2023-05-03 22:19:45,895 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@SEATA_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683123567853
+
+2023-05-03 22:19:47,653 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683123568081
+
+2023-05-03 22:19:48,144 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683123568395
+
+2023-05-03 22:19:48,430 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@SEATA_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683123570175
+
+2023-05-03 22:19:58,660 INFO SEATA_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:19:58,660 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 
+
+2023-05-03 22:19:59,089 INFO SEATA_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:19:59,089 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 
+
+2023-05-03 22:20:00,608 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:00,608 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-03 22:20:00,609 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:00,609 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-03 22:20:00,920 INFO SEATA_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:00,920 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 
+
+2023-05-03 22:20:02,680 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:02,680 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-03 22:20:03,180 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:03,180 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-03 22:20:03,463 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 22:20:03,463 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 
+
+2023-05-03 23:04:51,155 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:04:51,155 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:05:10,080 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:05:10,080 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 23:05:45,084 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 23:06:19,963 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 23:06:35,750 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 23:06:35,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.233.1:8091_true,
+
+2023-05-03 23:09:41,167 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:11:21,714 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683126666223
+
+2023-05-03 23:11:27,403 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-03 23:11:32,404 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 23:12:06,064 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:12:06,064 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:12:23,314 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:12:23,314 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:14:39,408 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:15:24,928 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:17:11,747 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:21:31,662 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683127275554
+
+2023-05-03 23:21:32,643 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683127276925
+
+2023-05-03 23:21:46,688 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:21:46,688 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-03 23:21:47,671 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:21:47,671 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:22:00,686 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:22:00,686 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 23:22:26,034 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:22:26,034 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:24:26,941 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683127450772
+
+2023-05-03 23:24:27,905 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683127451105
+
+2023-05-03 23:24:29,027 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:24:29,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:24:41,958 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:24:41,958 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-03 23:24:42,939 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:24:42,939 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:25:14,095 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683127499039
+
+2023-05-03 23:25:29,126 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:25:29,126 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:25:47,607 INFO {POS} {IP-DISABLED} valid: 192.168.233.1:8091@default@DEFAULT_GROUP@@serverAddr, region: unknown, msg: client timeout after 15000, last beat: 1683127532523
+
+2023-05-03 23:26:00,024 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-03 23:26:00,024 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.233.1:8091_true,
+
+2023-05-03 23:26:02,633 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_false_false_default]
+
+2023-05-03 23:26:02,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 
+
+2023-05-03 23:26:30,900 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:26:30,900 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:41:05,573 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@DEFAULT_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683128446618
+
+2023-05-03 23:41:20,582 INFO DEFAULT_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:41:20,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:41:21,031 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:41:21,031 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-03 23:42:17,395 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:42:17,395 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:43:57,549 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683128622459
+
+2023-05-03 23:44:01,931 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-03 23:44:06,932 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-03 23:45:41,460 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:48:45,950 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:52:15,987 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-03 23:58:42,668 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683129506776
+
+2023-05-03 23:58:48,887 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683129511305
+
+2023-05-03 23:58:57,703 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:58:57,703 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-03 23:59:03,917 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-03 23:59:03,917 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-03 23:59:38,338 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-03 23:59:38,338 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+

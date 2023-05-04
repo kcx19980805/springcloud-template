@@ -1,0 +1,4 @@
+2023-05-04 08:36:06,847 WARN [master-db] jdbc:mysql://127.0.0.1:3306/springcloud-template-nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-05-04 08:36:09,284 WARN isQuickStart:false
+

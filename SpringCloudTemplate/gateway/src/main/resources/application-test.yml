@@ -1,0 +1,60 @@
+server:
+  port: 8897
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        #这里跟seata服务端配置的group一致
+        group: SEATA_GROUP
+ #nacos地址
+      #      config:
+      #        prefix: ${spring.application.name}
+      #        server-addr: localhost:8848
+      #        file-extension: yml
+      #        namespace: 1a867dc4-3fc6-4be6-b56b-0608220cb37
+    #sentinel服务限流熔断
+    sentinel:
+      transport:
+        #配置Sentinel平台地址
+        dashboard: http://127.0.0.1:8080
+        #服务运行地址，默认8719端口，假如被占用会自动从8719开始依次+1扫描,直至找到未被占用的端口
+        port: 8791
+      #sentinel限流持久化
+      datasource:
+        ds1:
+          #从nacos配置列表读取，需要自行配置
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: gateway-sentinel
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+    #网关不能加
+    #  #分布式链路追踪监控平台
+    #  zipkin:
+    #    base-url: http://127.0.0.1:9411
+    #  #分布式请求链路跟踪
+    #  sleuth:
+    #    sampler:
+    #      #采样率值介于 0 到 1 之间，1 则表示全部采集
+    #      probability: 1
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+      routes:
+        - id: api-admin
+          uri: lb://api-admin #uri的协议为lb，表示启用Gateway的负载均衡功能。
+          predicates:
+            - Path=/api-admin/**
+          filters:
+            - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头加上一对请求头，名称为X-Request-Id值为1024
+        - id: api-user
+          uri: lb://api-user
+          predicates:
+            - Path=/api-user/**
+          filters:
+            - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头加上一对请求头，名称为X-Request-Id值为1024

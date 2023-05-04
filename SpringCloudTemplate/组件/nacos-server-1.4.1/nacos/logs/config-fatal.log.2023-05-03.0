@@ -1,0 +1,22 @@
+2023-05-03 09:29:28,872 WARN isQuickStart:false
+
+2023-05-03 11:54:44,220 WARN isQuickStart:false
+
+2023-05-03 14:44:20,007 WARN isQuickStart:false
+
+2023-05-03 18:30:51,522 WARN [master-db] jdbc:mysql://127.0.0.1:3306/springcloud-template-nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-05-03 18:30:53,116 WARN isQuickStart:false
+
+2023-05-03 18:37:45,525 WARN [master-db] jdbc:mysql://127.0.0.1:3306/springcloud-template-nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-05-03 18:37:46,986 WARN isQuickStart:false
+
+2023-05-03 19:06:19,920 WARN [master-db] jdbc:mysql://127.0.0.1:3306/springcloud-template-nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-05-03 19:06:21,432 WARN isQuickStart:false
+
+2023-05-03 19:22:18,846 WARN [master-db] jdbc:mysql://127.0.0.1:3306/springcloud-template-nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-05-03 19:22:20,376 WARN isQuickStart:false
+

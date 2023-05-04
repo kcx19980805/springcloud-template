@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kcx.service.middleware.sys.dao.ClientUserDao">
+
+    <update id="updateNickName">
+        update client_user set nick_name = #{nickName} where oid=#{oid}
+    </update>
+
+</mapper>

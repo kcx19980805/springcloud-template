@@ -1,0 +1,11 @@
+[
+    {
+        "resource": "com.kcx.api.admin.sys.controller.SysUserController:userLogin(com.kcx.api.admin.sys.requestVo.ReqUserLoginVO)",
+        "limitApp": "default",
+        "grade": 1,
+        "count": 1,
+        "strategy": 0,
+        "controlBehavior": 0,
+        "clusterMode": false
+    }
+]

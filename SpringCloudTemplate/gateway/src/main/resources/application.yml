@@ -1,0 +1,33 @@
+spring:
+  main:
+    web-application-type: reactive #解决spring-web依赖与gateway的冲突
+  application:
+    name: gateway
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 3072MB #单个文件上传大小
+      max-request-size: 3072MB #连续上传文件大小
+      enabled: true
+#Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-connections: 81920 #在同一时间，tomcat能够接受的最大连接数,如果满了，剩下的请求放到等待队列
+    threads:
+      max: 2000 #最大工作线程数，默认200, 4核8g内存，线程数经验值800
+      min-spare: 100 # 最小工作空闲线程数，默认10, 适当增大一些，以便应对突然增长的访问量
+    accept-count: 1000 #等待队列长度，默认100
+  servlet:
+    context-path: /
+#日志级别
+logging:
+  level:
+    com.kcx.gateway: debug
+
+
+

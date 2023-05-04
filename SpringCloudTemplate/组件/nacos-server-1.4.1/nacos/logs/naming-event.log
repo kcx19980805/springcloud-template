@@ -1,0 +1,488 @@
+2023-05-04 00:01:00,791 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:01:00,791 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-04 00:01:06,576 INFO SEATA_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:01:06,576 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-04 00:01:11,521 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:01:11,521 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 00:01:53,755 INFO SEATA_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:01:53,755 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-04 00:02:17,553 INFO SEATA_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:02:17,553 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 00:02:28,109 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:02:28,109 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 00:02:32,055 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 00:02:32,055 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 00:17:28,025 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683130632185
+
+2023-05-04 00:17:31,069 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-04 00:17:36,070 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 00:19:33,228 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683130756141
+
+2023-05-04 00:19:37,051 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-04 00:19:39,267 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683130763278
+
+2023-05-04 00:19:40,932 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-04 00:19:42,053 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 00:19:45,934 INFO service: SEATA_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 00:21:50,602 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 00:23:36,217 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 00:26:30,397 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683131174076
+
+2023-05-04 00:26:34,712 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-04 00:26:39,714 INFO service: SEATA_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 00:26:45,303 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 00:27:39,157 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 00:28:00,550 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683131264754
+
+2023-05-04 00:28:04,491 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-04 00:28:09,494 INFO service: SEATA_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 00:30:18,469 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@SEATA_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683131401935
+
+2023-05-04 00:30:19,495 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@SEATA_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683131402612
+
+2023-05-04 00:30:19,682 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683131403144
+
+2023-05-04 00:30:20,283 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683131401451
+
+2023-05-04 00:30:20,675 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683131404403
+
+2023-05-04 00:30:20,786 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683131404561
+
+2023-05-04 00:30:21,601 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@SEATA_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683131404754
+
+2023-05-04 00:30:24,240 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683131404270
+
+2023-05-04 00:30:33,502 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:33,502 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 
+
+2023-05-04 00:30:34,518 INFO SEATA_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:34,518 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 
+
+2023-05-04 00:30:34,692 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:34,692 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-04 00:30:35,309 INFO SEATA_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:35,309 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 
+
+2023-05-04 00:30:35,707 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:35,707 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-04 00:30:35,819 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:35,819 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-04 00:30:36,610 INFO SEATA_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:36,610 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 
+
+2023-05-04 00:30:39,258 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 00:30:39,258 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-04 08:36:32,216 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.233.1:8091:unknown:default_1.0_true_false_default]
+
+2023-05-04 08:36:32,216 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.233.1:8091_true,
+
+2023-05-04 08:40:20,840 INFO SEATA_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:40:20,840 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 08:42:01,574 INFO SEATA_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:42:01,574 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-04 08:42:04,204 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:42:04,204 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-04 08:42:07,578 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:42:07,578 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-04 08:42:55,510 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:42:55,510 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 08:43:06,491 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:43:06,491 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 08:43:45,342 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 08:47:42,019 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:47:42,019 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 08:48:32,068 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683161297050
+
+2023-05-04 08:48:38,526 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 08:48:43,529 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 08:53:37,543 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683161598696
+
+2023-05-04 08:53:38,469 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 08:53:43,471 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 08:57:32,293 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:57:32,293 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 08:57:32,879 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683161837042
+
+2023-05-04 08:57:47,920 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 08:57:47,920 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-04 08:59:42,483 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@DEFAULT_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683161967386
+
+2023-05-04 08:59:50,543 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 08:59:50,543 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 08:59:57,513 INFO DEFAULT_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 08:59:57,513 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@api-user, ips: 
+
+2023-05-04 09:04:28,418 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 09:08:53,889 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683162518586
+
+2023-05-04 09:08:58,966 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 09:09:03,968 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 09:58:33,645 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683165495832
+
+2023-05-04 09:58:48,665 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 09:58:48,665 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-04 10:00:28,666 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:00:28,666 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 10:01:53,944 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683165698702
+
+2023-05-04 10:01:55,480 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 10:02:00,483 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:04:32,171 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 10:05:29,332 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683165913178
+
+2023-05-04 10:05:33,867 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683165918379
+
+2023-05-04 10:05:38,097 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_false,
+
+2023-05-04 10:05:39,980 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-04 10:05:43,099 INFO service: SEATA_GROUP@@api-user {POS} {IP-ENABLED} valid: 192.168.1.5:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:05:43,545 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683165928393
+
+2023-05-04 10:05:44,982 INFO service: SEATA_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:05:45,273 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-04 10:05:50,276 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:08:53,826 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683166115411
+
+2023-05-04 10:08:54,206 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683166115093
+
+2023-05-04 10:08:54,649 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683166118209
+
+2023-05-04 10:08:54,649 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683166117348
+
+2023-05-04 10:08:54,871 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@SEATA_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683166115055
+
+2023-05-04 10:08:55,950 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683166116083
+
+2023-05-04 10:08:57,428 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@SEATA_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683166117726
+
+2023-05-04 10:09:08,841 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:08,841 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-04 10:09:09,223 INFO SEATA_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:09,223 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 
+
+2023-05-04 10:09:09,682 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:09,682 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-04 10:09:09,684 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:09,684 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-04 10:09:09,901 INFO SEATA_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:09,901 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 
+
+2023-05-04 10:09:10,974 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:10,974 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-04 10:09:12,458 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:09:12,458 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 
+
+2023-05-04 10:09:55,316 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:09:55,317 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 10:10:01,605 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:10:01,605 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 10:11:19,897 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683166261647
+
+2023-05-04 10:11:22,703 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 10:11:27,704 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:12:09,116 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683166310391
+
+2023-05-04 10:12:09,957 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683166312733
+
+2023-05-04 10:12:24,143 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:12:24,143 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-04 10:12:24,973 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:12:24,973 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-04 10:32:09,147 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:32:09,147 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 10:32:29,492 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:32:29,492 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 10:34:36,928 INFO SEATA_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:34:36,928 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-04 10:35:35,055 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:35:35,055 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 10:35:38,702 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:35:38,702 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-04 10:35:41,877 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:35:41,877 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-04 10:35:44,542 INFO SEATA_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:35:44,543 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-04 10:35:46,411 INFO SEATA_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:35:46,411 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 10:38:44,755 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683167909457
+
+2023-05-04 10:38:51,294 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 10:38:51,677 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683167916534
+
+2023-05-04 10:38:56,297 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:38:56,372 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-04 10:39:01,373 INFO service: SEATA_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:41:10,035 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683168051370
+
+2023-05-04 10:41:11,792 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 10:41:16,801 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:45:01,011 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683168285403
+
+2023-05-04 10:45:02,132 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_false,
+
+2023-05-04 10:45:02,338 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683168286571
+
+2023-05-04 10:45:06,510 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_false,
+
+2023-05-04 10:45:07,134 INFO service: SEATA_GROUP@@service-middleware {POS} {IP-ENABLED} valid: 192.168.1.5:8893@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:45:11,511 INFO service: SEATA_GROUP@@job {POS} {IP-ENABLED} valid: 192.168.1.5:8895@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 10:46:15,590 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@SEATA_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683168360008
+
+2023-05-04 10:46:15,810 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683168360121
+
+2023-05-04 10:46:17,472 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683168361536
+
+2023-05-04 10:46:17,849 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@SEATA_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683168362252
+
+2023-05-04 10:46:17,943 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@SEATA_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683168362390
+
+2023-05-04 10:46:19,751 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683168364135
+
+2023-05-04 10:46:20,541 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683168362008
+
+2023-05-04 10:46:21,142 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683168362163
+
+2023-05-04 10:46:30,610 INFO SEATA_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:30,611 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 
+
+2023-05-04 10:46:30,847 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:30,847 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-04 10:46:32,505 INFO SEATA_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:32,505 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 
+
+2023-05-04 10:46:32,861 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:32,861 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 
+
+2023-05-04 10:46:32,957 INFO SEATA_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:32,957 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 
+
+2023-05-04 10:46:34,766 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:34,766 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-04 10:46:35,549 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:35,549 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+
+2023-05-04 10:46:36,176 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 10:46:36,176 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-04 10:47:43,436 INFO SEATA_GROUP@@api-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:47:43,436 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_true,
+
+2023-05-04 10:48:25,723 INFO SEATA_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:25,723 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 192.168.1.5:8897_true,
+
+2023-05-04 10:48:32,117 INFO SEATA_GROUP@@api-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:32,117 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 192.168.1.5:8888_true,
+
+2023-05-04 10:48:37,508 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:37,508 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 192.168.1.5:8893_true,
+
+2023-05-04 10:48:41,571 INFO SEATA_GROUP@@service-third {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:41,571 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 192.168.1.5:8892_true,
+
+2023-05-04 10:48:44,368 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:44,368 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 192.168.1.5:8891_true,
+
+2023-05-04 10:48:47,049 INFO SEATA_GROUP@@task-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:47,049 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 192.168.1.5:8890_true,
+
+2023-05-04 10:48:49,782 INFO SEATA_GROUP@@job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-04 10:48:49,782 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 192.168.1.5:8895_true,
+
+2023-05-04 11:01:16,910 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683169258941
+
+2023-05-04 11:01:19,255 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 192.168.1.5:8889_false,
+
+2023-05-04 11:01:24,258 INFO service: SEATA_GROUP@@api-admin {POS} {IP-ENABLED} valid: 192.168.1.5:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-04 11:35:06,947 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8895@DEFAULT@SEATA_GROUP@@job, region: unknown, msg: client timeout after 15000, last beat: 1683171291849
+
+2023-05-04 11:35:07,714 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8897@DEFAULT@SEATA_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1683171292395
+
+2023-05-04 11:35:09,353 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8892@DEFAULT@SEATA_GROUP@@service-third, region: unknown, msg: client timeout after 15000, last beat: 1683171293242
+
+2023-05-04 11:35:10,232 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8890@DEFAULT@SEATA_GROUP@@task-producer, region: unknown, msg: client timeout after 15000, last beat: 1683171293861
+
+2023-05-04 11:35:10,465 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8888@DEFAULT@SEATA_GROUP@@api-user, region: unknown, msg: client timeout after 15000, last beat: 1683171293939
+
+2023-05-04 11:35:10,760 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8893@DEFAULT@SEATA_GROUP@@service-middleware, region: unknown, msg: client timeout after 15000, last beat: 1683171294268
+
+2023-05-04 11:35:12,451 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8891@DEFAULT@SEATA_GROUP@@task-consumer, region: unknown, msg: client timeout after 15000, last beat: 1683171296049
+
+2023-05-04 11:35:15,243 INFO {POS} {IP-DISABLED} valid: 192.168.1.5:8889@DEFAULT@SEATA_GROUP@@api-admin, region: unknown, msg: client timeout after 15000, last beat: 1683171295616
+
+2023-05-04 11:35:21,968 INFO SEATA_GROUP@@job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8895:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:21,968 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@job, ips: 
+
+2023-05-04 11:35:22,745 INFO SEATA_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8897:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:22,745 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@gateway, ips: 
+
+2023-05-04 11:35:24,366 INFO SEATA_GROUP@@service-third {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8892:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:24,366 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-third, ips: 
+
+2023-05-04 11:35:25,258 INFO SEATA_GROUP@@task-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8890:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:25,258 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-producer, ips: 
+
+2023-05-04 11:35:25,496 INFO SEATA_GROUP@@api-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:25,497 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-user, ips: 
+
+2023-05-04 11:35:25,783 INFO SEATA_GROUP@@service-middleware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8893:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:25,783 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@service-middleware, ips: 
+
+2023-05-04 11:35:27,476 INFO SEATA_GROUP@@task-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8891:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:27,477 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@task-consumer, ips: 
+
+2023-05-04 11:35:30,270 INFO SEATA_GROUP@@api-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.5:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-04 11:35:30,270 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@api-admin, ips: 
+

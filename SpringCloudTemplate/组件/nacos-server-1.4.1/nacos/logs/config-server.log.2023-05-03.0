@@ -1,0 +1,392 @@
+2023-05-03 09:29:15,720 INFO notifyConnectTimeout:200
+
+2023-05-03 09:29:15,720 INFO notifySocketTimeout:8000
+
+2023-05-03 09:29:15,720 INFO isHealthCheck:true
+
+2023-05-03 09:29:15,720 INFO maxHealthCheckFailCount:12
+
+2023-05-03 09:29:15,720 INFO maxContent:10485760
+
+2023-05-03 09:29:22,865 INFO use local db service for init
+
+2023-05-03 09:29:25,018 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2023-05-03 09:29:25,048 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2023-05-03 09:29:25,177 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:25,557 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:25,678 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:25,779 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:25,873 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:25,973 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,026 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,095 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,196 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,327 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,397 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,475 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,559 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,629 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,699 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2023-05-03 09:29:26,946 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL230422211434130' defined on 'USERS'.
+
+2023-05-03 09:29:26,946 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2023-05-03 09:29:26,946 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 09:29:26,946 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 09:29:26,946 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 09:29:26,946 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 09:29:26,946 INFO use StandaloneDatabaseOperateImpl
+
+2023-05-03 09:29:28,872 WARN DumpService start
+
+2023-05-03 09:29:28,872 INFO start clear all config-info.
+
+2023-05-03 09:29:28,872 WARN clear all config-info failed.
+
+2023-05-03 09:29:28,872 WARN clear all config-info-tenant failed.
+
+2023-05-03 09:29:29,011 INFO start clear all config-info-beta.
+
+2023-05-03 09:29:29,011 WARN clear all config-info-beta failed.
+
+2023-05-03 09:29:29,011 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 09:29:29,063 INFO start clear all config-info-tag.
+
+2023-05-03 09:29:29,063 WARN clear all config-info-tag failed.
+
+2023-05-03 09:29:29,063 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 11:54:33,297 INFO notifyConnectTimeout:200
+
+2023-05-03 11:54:33,300 INFO notifySocketTimeout:8000
+
+2023-05-03 11:54:33,300 INFO isHealthCheck:true
+
+2023-05-03 11:54:33,300 INFO maxHealthCheckFailCount:12
+
+2023-05-03 11:54:33,300 INFO maxContent:10485760
+
+2023-05-03 11:54:39,862 INFO use local db service for init
+
+2023-05-03 11:54:41,348 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2023-05-03 11:54:41,380 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2023-05-03 11:54:41,588 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:41,714 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:41,786 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:41,857 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:41,929 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:41,990 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,060 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,133 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,203 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,287 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,357 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,429 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,513 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,583 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,643 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2023-05-03 11:54:42,725 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL230422211434130' defined on 'USERS'.
+
+2023-05-03 11:54:42,732 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2023-05-03 11:54:42,732 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 11:54:42,732 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 11:54:42,733 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 11:54:42,733 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 11:54:42,733 INFO use StandaloneDatabaseOperateImpl
+
+2023-05-03 11:54:44,219 WARN DumpService start
+
+2023-05-03 11:54:44,220 INFO start clear all config-info.
+
+2023-05-03 11:54:44,221 WARN clear all config-info failed.
+
+2023-05-03 11:54:44,221 WARN clear all config-info-tenant failed.
+
+2023-05-03 11:54:44,268 INFO start clear all config-info-beta.
+
+2023-05-03 11:54:44,268 WARN clear all config-info-beta failed.
+
+2023-05-03 11:54:44,269 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 11:54:44,280 INFO start clear all config-info-tag.
+
+2023-05-03 11:54:44,281 WARN clear all config-info-tag failed.
+
+2023-05-03 11:54:44,281 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 14:44:08,042 INFO notifyConnectTimeout:200
+
+2023-05-03 14:44:08,042 INFO notifySocketTimeout:8000
+
+2023-05-03 14:44:08,042 INFO isHealthCheck:true
+
+2023-05-03 14:44:08,042 INFO maxHealthCheckFailCount:12
+
+2023-05-03 14:44:08,042 INFO maxContent:10485760
+
+2023-05-03 14:44:14,446 INFO use local db service for init
+
+2023-05-03 14:44:16,399 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2023-05-03 14:44:16,430 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2023-05-03 14:44:16,603 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:16,993 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,102 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,180 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,243 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,337 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,399 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,461 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,539 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,633 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,727 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,789 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,899 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:17,977 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:18,039 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2023-05-03 14:44:18,258 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL230422211434130' defined on 'USERS'.
+
+2023-05-03 14:44:18,258 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2023-05-03 14:44:18,258 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 14:44:18,258 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 14:44:18,258 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 14:44:18,258 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-05-03 14:44:18,258 INFO use StandaloneDatabaseOperateImpl
+
+2023-05-03 14:44:20,007 WARN DumpService start
+
+2023-05-03 14:44:20,007 INFO start clear all config-info.
+
+2023-05-03 14:44:20,007 WARN clear all config-info failed.
+
+2023-05-03 14:44:20,007 WARN clear all config-info-tenant failed.
+
+2023-05-03 14:44:20,289 INFO start clear all config-info-beta.
+
+2023-05-03 14:44:20,289 WARN clear all config-info-beta failed.
+
+2023-05-03 14:44:20,289 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 14:44:20,320 INFO start clear all config-info-tag.
+
+2023-05-03 14:44:20,320 WARN clear all config-info-tag failed.
+
+2023-05-03 14:44:20,320 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 18:30:44,802 INFO notifyConnectTimeout:200
+
+2023-05-03 18:30:44,805 INFO notifySocketTimeout:8000
+
+2023-05-03 18:30:44,805 INFO isHealthCheck:true
+
+2023-05-03 18:30:44,805 INFO maxHealthCheckFailCount:12
+
+2023-05-03 18:30:44,806 INFO maxContent:10485760
+
+2023-05-03 18:30:44,806 INFO spring.datasource.platform:mysql
+
+2023-05-03 18:30:53,115 WARN DumpService start
+
+2023-05-03 18:30:53,116 INFO start clear all config-info.
+
+2023-05-03 18:30:53,117 WARN clear all config-info failed.
+
+2023-05-03 18:30:53,117 WARN clear all config-info-tenant failed.
+
+2023-05-03 18:30:53,121 INFO start clear all config-info-beta.
+
+2023-05-03 18:30:53,121 WARN clear all config-info-beta failed.
+
+2023-05-03 18:30:53,121 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 18:30:53,125 INFO start clear all config-info-tag.
+
+2023-05-03 18:30:53,125 WARN clear all config-info-tag failed.
+
+2023-05-03 18:30:53,125 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 18:37:39,196 INFO notifyConnectTimeout:200
+
+2023-05-03 18:37:39,199 INFO notifySocketTimeout:8000
+
+2023-05-03 18:37:39,199 INFO isHealthCheck:true
+
+2023-05-03 18:37:39,199 INFO maxHealthCheckFailCount:12
+
+2023-05-03 18:37:39,199 INFO maxContent:10485760
+
+2023-05-03 18:37:39,200 INFO spring.datasource.platform:mysql
+
+2023-05-03 18:37:46,985 WARN DumpService start
+
+2023-05-03 18:37:46,986 INFO start clear all config-info.
+
+2023-05-03 18:37:46,986 WARN clear all config-info failed.
+
+2023-05-03 18:37:46,986 WARN clear all config-info-tenant failed.
+
+2023-05-03 18:37:46,991 INFO start clear all config-info-beta.
+
+2023-05-03 18:37:46,992 WARN clear all config-info-beta failed.
+
+2023-05-03 18:37:46,992 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 18:37:46,992 INFO start clear all config-info-tag.
+
+2023-05-03 18:37:46,993 WARN clear all config-info-tag failed.
+
+2023-05-03 18:37:46,993 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 19:05:28,681 ERROR long polling error:The request associated with the AsyncContext has already completed processing.
+
+2023-05-03 19:05:35,568 ERROR long polling error:The request associated with the AsyncContext has already completed processing.
+
+2023-05-03 19:05:42,852 ERROR long polling error:The request associated with the AsyncContext has already completed processing.
+
+2023-05-03 19:05:45,972 ERROR long polling error:The request associated with the AsyncContext has already completed processing.
+
+2023-05-03 19:06:13,185 INFO notifyConnectTimeout:200
+
+2023-05-03 19:06:13,188 INFO notifySocketTimeout:8000
+
+2023-05-03 19:06:13,188 INFO isHealthCheck:true
+
+2023-05-03 19:06:13,188 INFO maxHealthCheckFailCount:12
+
+2023-05-03 19:06:13,188 INFO maxContent:10485760
+
+2023-05-03 19:06:13,188 INFO spring.datasource.platform:mysql
+
+2023-05-03 19:06:21,431 WARN DumpService start
+
+2023-05-03 19:06:21,432 INFO start clear all config-info.
+
+2023-05-03 19:06:21,435 INFO clear all config-info success.
+
+2023-05-03 19:06:21,435 WARN clear all config-info-tenant failed.
+
+2023-05-03 19:06:21,472 INFO [all-dump] 1 / 1
+
+2023-05-03 19:06:21,473 INFO start clear all config-info-beta.
+
+2023-05-03 19:06:21,473 WARN clear all config-info-beta failed.
+
+2023-05-03 19:06:21,473 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 19:06:21,475 INFO start clear all config-info-tag.
+
+2023-05-03 19:06:21,475 WARN clear all config-info-tag failed.
+
+2023-05-03 19:06:21,475 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 19:22:12,002 INFO notifyConnectTimeout:200
+
+2023-05-03 19:22:12,005 INFO notifySocketTimeout:8000
+
+2023-05-03 19:22:12,005 INFO isHealthCheck:true
+
+2023-05-03 19:22:12,005 INFO maxHealthCheckFailCount:12
+
+2023-05-03 19:22:12,005 INFO maxContent:10485760
+
+2023-05-03 19:22:12,006 INFO spring.datasource.platform:mysql
+
+2023-05-03 19:22:20,375 WARN DumpService start
+
+2023-05-03 19:22:20,376 INFO start clear all config-info.
+
+2023-05-03 19:22:20,379 INFO clear all config-info success.
+
+2023-05-03 19:22:20,379 WARN clear all config-info-tenant failed.
+
+2023-05-03 19:22:20,410 INFO [all-dump] 1 / 1
+
+2023-05-03 19:22:20,410 INFO start clear all config-info-beta.
+
+2023-05-03 19:22:20,411 WARN clear all config-info-beta failed.
+
+2023-05-03 19:22:20,411 WARN clear all config-info-beta-tenant failed.
+
+2023-05-03 19:22:20,412 INFO start clear all config-info-tag.
+
+2023-05-03 19:22:20,412 WARN clear all config-info-tag failed.
+
+2023-05-03 19:22:20,412 WARN clear all config-info-tag-tenant failed.
+
+2023-05-03 23:25:49,453 INFO notifyConnectTimeout:200
+
+2023-05-03 23:25:49,455 INFO notifySocketTimeout:8000
+
+2023-05-03 23:25:49,455 INFO isHealthCheck:true
+
+2023-05-03 23:25:49,455 INFO maxHealthCheckFailCount:12
+
+2023-05-03 23:25:49,455 INFO maxContent:10485760
+
+2023-05-03 23:25:49,456 INFO spring.datasource.platform:mysql
+

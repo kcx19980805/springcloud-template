@@ -1,0 +1,115 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 3072MB #单个文件上传大小
+      max-request-size: 3072MB #连续上传文件大小
+      enabled: true
+  autoconfigure:
+    #springboot配置中排除原生Druid的快速配置类：DruidDataSourceAutoConfigure。让mybatis-plus提供的dynamic-datasource来完成配置。
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+  mvc:
+  #static-path-pattern: /static/** #加上这个swagger无法访问
+  #Druid连接池配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      #初始化时建立物理连接的个数
+      initial-size: 10
+      #最大连接池数量2 4
+      max-active: 100
+      #最小连接池数量
+      min-idle: 10
+      #获取连接时最大等待时间，单位毫秒
+      max-wait: 20000
+      #是否缓存preparedStatement,mysql5.5+建议开启
+      pool-prepared-statements: true
+      ##当值大于20时poolPreparedStatements会自动修改为true
+      max-pool-prepared-statement-per-connection-size: 20
+      #通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      #合并多个DruidDataSource的监控数据
+      use-global-data-source-stat: true
+      #既作为检测的间隔时间又作为test-while-idle执行的依据
+      time-between-eviction-runs-millis: 20000
+      #销毁线程时检测当前连接的最后活动时间和当前时间差大于该值时，关闭当前连接
+      min-evictable-idle-time-millis: 300000
+      #用来检测连接是否有效的sql
+      #mysql中为 select 'x'
+      #oracle中为 select 1 from dual
+      validation-query: select 'x'
+      test-while-idle: true
+      #申请连接时会执行validationQuery检测连接是否有效,开启会降低性能,默认为true
+      test-on-borrow: false
+      #归还连接时会执行validationQuery检测连接是否有效,开启会降低性能,默认为true
+      test-on-return: false
+      #当数据库抛出不可恢复的异常时,抛弃该连接
+      exception-sorter: true
+      #设置访问druid监控页面的拦截路径及账号和密码,默认没有
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        #login-username: sys
+        #login-password: sys
+      #监控统计用的filter:stat 日志用的filter:log4j 防御sql注入的filter:wall
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+          enabled: true
+        wall:
+          config:
+            multi-statement-allow: true
+#Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-connections: 8192 #在同一时间，tomcat能够接受的最大连接数,如果满了，剩下的请求放到等待队列
+    threads:
+      max: 200 #最大工作线程数，默认200, 4核8g内存，线程数经验值800
+      min-spare: 10 # 最小工作空闲线程数，默认10, 适当增大一些，以便应对突然增长的访问量
+    accept-count: 100 #等待队列长度，默认100
+  servlet:
+    context-path: /
+#Mybatis-plus:
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.kcx.service.third.sys.entity;com.kcx.service.third.sys.requestVo;com.kcx.service.third.sys.responseVo
+  global-config:
+    #数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID", ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: NOT_NULL
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除的值
+      logic-delete-value: 1
+      #逻辑不删除的值
+      logic-not-delete-value: 0
+    banner: false
+  #原生配置
+  configuration:
+    #下划线转驼峰
+    map-underscore-to-camel-case: true
+    #开启二级缓存缓存
+    cache-enabled: false
+    #查询为null的值仍然设置到实体中
+    call-setters-on-nulls: true
+    #配置列空值类型 JdbcTypeForNull, oracle数据库必须配置。注意单引号，默认为other
+    jdbc-type-for-null: 'null'
+    #打印出执行的sql语句
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#日志级别
+logging:
+  level:
+    com.kcx.service.third: debug
+#-------------------------------------------------自定义属性--------------------------------------------------
+

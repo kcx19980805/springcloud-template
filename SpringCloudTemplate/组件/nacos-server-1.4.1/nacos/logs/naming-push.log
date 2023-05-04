@@ -1,0 +1,1251 @@
+2023-05-04 00:01:01,799 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 00:01:01,800 INFO serviceName: SEATA_GROUP@@task-consumer changed, schedule push for: 192.168.233.1:64613, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64613,34101903747500
+
+2023-05-04 00:01:01,800 INFO send udp packet: 192.168.233.1,64613,34101903747500
+
+2023-05-04 00:01:01,803 INFO received ack: {"type": "push-ack", "lastRefTime":"34101903747500", "data":""} from: 192.168.233.1:64613, cost: 3 ms, unacked: 0, total push: 1
+
+2023-05-04 00:01:07,576 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 00:01:07,576 INFO serviceName: SEATA_GROUP@@task-producer changed, schedule push for: 192.168.233.1:64615, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64615,34107680137099
+
+2023-05-04 00:01:07,577 INFO send udp packet: 192.168.233.1,64615,34107680137099
+
+2023-05-04 00:01:07,580 INFO received ack: {"type": "push-ack", "lastRefTime":"34107680137099", "data":""} from: 192.168.233.1:64615, cost: 3 ms, unacked: 0, total push: 2
+
+2023-05-04 00:01:12,526 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:01:12,526 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52831, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52831,34112629935300
+
+2023-05-04 00:01:12,526 INFO send udp packet: 192.168.233.1,52831,34112629935300
+
+2023-05-04 00:01:12,528 INFO received ack: {"type": "push-ack", "lastRefTime":"34112629935300", "data":""} from: 192.168.233.1:52831, cost: 2 ms, unacked: 0, total push: 3
+
+2023-05-04 00:01:54,769 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 00:01:54,769 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,34154873080700
+
+2023-05-04 00:01:54,769 INFO send udp packet: 192.168.233.1,52136,34154873080700
+
+2023-05-04 00:01:54,769 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,34154873080700
+
+2023-05-04 00:01:54,769 INFO send udp packet: 192.168.233.1,52136,34154873080700
+
+2023-05-04 00:01:54,772 INFO received ack: {"type": "push-ack", "lastRefTime":"34154873080700", "data":""} from: 192.168.233.1:52136, cost: 3 ms, unacked: 0, total push: 4
+
+2023-05-04 00:01:54,774 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.233.1,52136,34154873080700, ack json: {"type": "push-ack", "lastRefTime":"34154873080700", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-04 00:02:18,561 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:02:18,561 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52137, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52137,34178664739000
+
+2023-05-04 00:02:18,561 INFO send udp packet: 192.168.233.1,52137,34178664739000
+
+2023-05-04 00:02:18,564 INFO received ack: {"type": "push-ack", "lastRefTime":"34178664739000", "data":""} from: 192.168.233.1:52137, cost: 3 ms, unacked: 0, total push: 5
+
+2023-05-04 00:02:29,112 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:02:29,112 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65340, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65340,34189215582099
+
+2023-05-04 00:02:29,112 INFO send udp packet: 192.168.233.1,65340,34189215582099
+
+2023-05-04 00:02:29,115 INFO received ack: {"type": "push-ack", "lastRefTime":"34189215582099", "data":""} from: 192.168.233.1:65340, cost: 3 ms, unacked: 0, total push: 6
+
+2023-05-04 00:02:33,067 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 00:02:33,067 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,34193171171900
+
+2023-05-04 00:02:33,067 INFO send udp packet: 192.168.233.1,65342,34193171171900
+
+2023-05-04 00:02:33,071 INFO received ack: {"type": "push-ack", "lastRefTime":"34193171171900", "data":""} from: 192.168.233.1:65342, cost: 4 ms, unacked: 0, total push: 7
+
+2023-05-04 00:17:29,033 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:17:29,033 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52137, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52137,35089136251700
+
+2023-05-04 00:17:29,033 INFO send udp packet: 192.168.233.1,52137,35089136251700
+
+2023-05-04 00:17:29,033 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35089136251700
+
+2023-05-04 00:17:29,033 INFO send udp packet: 192.168.233.1,52136,35089136251700
+
+2023-05-04 00:17:29,034 INFO received ack: {"type": "push-ack", "lastRefTime":"35089136251700", "data":""} from: 192.168.233.1:52137, cost: 1 ms, unacked: 1, total push: 9
+
+2023-05-04 00:17:29,034 INFO received ack: {"type": "push-ack", "lastRefTime":"35089136251700", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 0, total push: 9
+
+2023-05-04 00:17:32,077 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:17:32,077 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52137, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52137,35092181158400
+
+2023-05-04 00:17:32,077 INFO send udp packet: 192.168.233.1,52137,35092181158400
+
+2023-05-04 00:17:32,077 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35092181158400
+
+2023-05-04 00:17:32,077 INFO send udp packet: 192.168.233.1,52136,35092181158400
+
+2023-05-04 00:17:32,077 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:55156, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55156,35092181158400
+
+2023-05-04 00:17:32,077 INFO send udp packet: 192.168.233.1,55156,35092181158400
+
+2023-05-04 00:17:32,078 INFO received ack: {"type": "push-ack", "lastRefTime":"35092181158400", "data":""} from: 192.168.233.1:52137, cost: 1 ms, unacked: 2, total push: 12
+
+2023-05-04 00:17:32,078 INFO received ack: {"type": "push-ack", "lastRefTime":"35092181158400", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 12
+
+2023-05-04 00:17:32,080 INFO received ack: {"type": "push-ack", "lastRefTime":"35092181158400", "data":""} from: 192.168.233.1:55156, cost: 3 ms, unacked: 0, total push: 12
+
+2023-05-04 00:17:37,076 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:17:37,076 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52137, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52137,35097179835700
+
+2023-05-04 00:17:37,076 INFO send udp packet: 192.168.233.1,52137,35097179835700
+
+2023-05-04 00:17:37,076 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35097179835700
+
+2023-05-04 00:17:37,076 INFO send udp packet: 192.168.233.1,52136,35097179835700
+
+2023-05-04 00:17:37,076 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:55156, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55156,35097179835700
+
+2023-05-04 00:17:37,076 INFO send udp packet: 192.168.233.1,55156,35097179835700
+
+2023-05-04 00:17:37,077 INFO received ack: {"type": "push-ack", "lastRefTime":"35097179835700", "data":""} from: 192.168.233.1:52137, cost: 1 ms, unacked: 2, total push: 15
+
+2023-05-04 00:17:37,077 INFO received ack: {"type": "push-ack", "lastRefTime":"35097179835700", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 15
+
+2023-05-04 00:17:37,077 INFO received ack: {"type": "push-ack", "lastRefTime":"35097179835700", "data":""} from: 192.168.233.1:55156, cost: 1 ms, unacked: 0, total push: 15
+
+2023-05-04 00:19:34,230 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:19:34,230 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35214333728700
+
+2023-05-04 00:19:34,230 INFO send udp packet: 192.168.233.1,52136,35214333728700
+
+2023-05-04 00:19:34,231 INFO received ack: {"type": "push-ack", "lastRefTime":"35214333728700", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 0, total push: 16
+
+2023-05-04 00:19:38,063 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:19:38,063 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35218166445800
+
+2023-05-04 00:19:38,063 INFO send udp packet: 192.168.233.1,52136,35218166445800
+
+2023-05-04 00:19:38,063 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:56362, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,56362,35218166445800
+
+2023-05-04 00:19:38,063 INFO send udp packet: 192.168.233.1,56362,35218166445800
+
+2023-05-04 00:19:38,064 INFO received ack: {"type": "push-ack", "lastRefTime":"35218166445800", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 18
+
+2023-05-04 00:19:38,066 INFO received ack: {"type": "push-ack", "lastRefTime":"35218166445800", "data":""} from: 192.168.233.1:56362, cost: 3 ms, unacked: 0, total push: 18
+
+2023-05-04 00:19:40,267 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:19:40,267 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35220370524100
+
+2023-05-04 00:19:40,267 INFO send udp packet: 192.168.233.1,52136,35220370524100
+
+2023-05-04 00:19:40,267 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:65340, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65340,35220370524100
+
+2023-05-04 00:19:40,267 INFO send udp packet: 192.168.233.1,65340,35220370524100
+
+2023-05-04 00:19:40,268 INFO received ack: {"type": "push-ack", "lastRefTime":"35220370524100", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 20
+
+2023-05-04 00:19:40,268 INFO received ack: {"type": "push-ack", "lastRefTime":"35220370524100", "data":""} from: 192.168.233.1:65340, cost: 1 ms, unacked: 0, total push: 20
+
+2023-05-04 00:19:41,936 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:19:41,936 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:56364, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,56364,35222040229900
+
+2023-05-04 00:19:41,936 INFO send udp packet: 192.168.233.1,56364,35222040229900
+
+2023-05-04 00:19:41,936 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35222040229900
+
+2023-05-04 00:19:41,936 INFO send udp packet: 192.168.233.1,52136,35222040229900
+
+2023-05-04 00:19:41,936 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:65340, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65340,35222040229900
+
+2023-05-04 00:19:41,937 INFO send udp packet: 192.168.233.1,65340,35222040229900
+
+2023-05-04 00:19:41,937 INFO received ack: {"type": "push-ack", "lastRefTime":"35222040229900", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 2, total push: 23
+
+2023-05-04 00:19:41,937 INFO received ack: {"type": "push-ack", "lastRefTime":"35222040229900", "data":""} from: 192.168.233.1:65340, cost: 0 ms, unacked: 1, total push: 23
+
+2023-05-04 00:19:41,946 INFO received ack: {"type": "push-ack", "lastRefTime":"35222040229900", "data":""} from: 192.168.233.1:56364, cost: 10 ms, unacked: 0, total push: 23
+
+2023-05-04 00:19:43,058 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:19:43,058 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35223162614200
+
+2023-05-04 00:19:43,058 INFO send udp packet: 192.168.233.1,52136,35223162614200
+
+2023-05-04 00:19:43,058 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:56362, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,56362,35223162614200
+
+2023-05-04 00:19:43,059 INFO send udp packet: 192.168.233.1,56362,35223162614200
+
+2023-05-04 00:19:43,059 INFO received ack: {"type": "push-ack", "lastRefTime":"35223162614200", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 25
+
+2023-05-04 00:19:43,059 INFO received ack: {"type": "push-ack", "lastRefTime":"35223162614200", "data":""} from: 192.168.233.1:56362, cost: 0 ms, unacked: 0, total push: 25
+
+2023-05-04 00:19:46,938 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:19:46,938 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:56364, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,56364,35227041953700
+
+2023-05-04 00:19:46,938 INFO send udp packet: 192.168.233.1,56364,35227041953700
+
+2023-05-04 00:19:46,938 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35227041953700
+
+2023-05-04 00:19:46,938 INFO send udp packet: 192.168.233.1,52136,35227041953700
+
+2023-05-04 00:19:46,938 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:65340, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65340,35227041953700
+
+2023-05-04 00:19:46,938 INFO send udp packet: 192.168.233.1,65340,35227041953700
+
+2023-05-04 00:19:46,939 INFO received ack: {"type": "push-ack", "lastRefTime":"35227041953700", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 2, total push: 28
+
+2023-05-04 00:19:46,939 INFO received ack: {"type": "push-ack", "lastRefTime":"35227041953700", "data":""} from: 192.168.233.1:65340, cost: 1 ms, unacked: 1, total push: 28
+
+2023-05-04 00:19:46,944 INFO received ack: {"type": "push-ack", "lastRefTime":"35227041953700", "data":""} from: 192.168.233.1:56364, cost: 6 ms, unacked: 0, total push: 28
+
+2023-05-04 00:21:51,606 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:21:51,606 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:54626, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54626,35351709995600
+
+2023-05-04 00:21:51,606 INFO send udp packet: 192.168.233.1,54626,35351709995600
+
+2023-05-04 00:21:51,606 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35351709995600
+
+2023-05-04 00:21:51,606 INFO send udp packet: 192.168.233.1,52136,35351709995600
+
+2023-05-04 00:21:51,606 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:56364, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,56364,35351709995600
+
+2023-05-04 00:21:51,606 INFO send udp packet: 192.168.233.1,56364,35351709995600
+
+2023-05-04 00:21:51,607 INFO received ack: {"type": "push-ack", "lastRefTime":"35351709995600", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 2, total push: 31
+
+2023-05-04 00:21:51,607 INFO received ack: {"type": "push-ack", "lastRefTime":"35351709995600", "data":""} from: 192.168.233.1:56364, cost: 1 ms, unacked: 1, total push: 31
+
+2023-05-04 00:21:51,609 INFO received ack: {"type": "push-ack", "lastRefTime":"35351709995600", "data":""} from: 192.168.233.1:54626, cost: 3 ms, unacked: 0, total push: 31
+
+2023-05-04 00:23:37,224 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:23:37,224 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35457327675300
+
+2023-05-04 00:23:37,224 INFO send udp packet: 192.168.233.1,52136,35457327675300
+
+2023-05-04 00:23:37,224 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:65340, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65340,35457327675300
+
+2023-05-04 00:23:37,224 INFO send udp packet: 192.168.233.1,65340,35457327675300
+
+2023-05-04 00:23:37,224 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:55618, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55618,35457327675300
+
+2023-05-04 00:23:37,224 INFO send udp packet: 192.168.233.1,55618,35457327675300
+
+2023-05-04 00:23:37,225 INFO received ack: {"type": "push-ack", "lastRefTime":"35457327675300", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 2, total push: 34
+
+2023-05-04 00:23:37,225 INFO received ack: {"type": "push-ack", "lastRefTime":"35457327675300", "data":""} from: 192.168.233.1:65340, cost: 1 ms, unacked: 1, total push: 34
+
+2023-05-04 00:23:37,227 INFO received ack: {"type": "push-ack", "lastRefTime":"35457327675300", "data":""} from: 192.168.233.1:55618, cost: 3 ms, unacked: 0, total push: 34
+
+2023-05-04 00:26:31,405 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:26:31,405 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35631508513400
+
+2023-05-04 00:26:31,405 INFO send udp packet: 192.168.233.1,65342,35631508513400
+
+2023-05-04 00:26:31,405 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35631508513400
+
+2023-05-04 00:26:31,405 INFO send udp packet: 192.168.233.1,52136,35631508513400
+
+2023-05-04 00:26:31,406 INFO received ack: {"type": "push-ack", "lastRefTime":"35631508513400", "data":""} from: 192.168.233.1:65342, cost: 1 ms, unacked: 1, total push: 36
+
+2023-05-04 00:26:31,406 INFO received ack: {"type": "push-ack", "lastRefTime":"35631508513400", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 0, total push: 36
+
+2023-05-04 00:26:35,721 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:26:35,721 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:53037, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,53037,35635824976700
+
+2023-05-04 00:26:35,721 INFO send udp packet: 192.168.233.1,53037,35635824976700
+
+2023-05-04 00:26:35,721 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35635824976700
+
+2023-05-04 00:26:35,721 INFO send udp packet: 192.168.233.1,65342,35635824976700
+
+2023-05-04 00:26:35,721 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35635824976700
+
+2023-05-04 00:26:35,721 INFO send udp packet: 192.168.233.1,52136,35635824976700
+
+2023-05-04 00:26:35,722 INFO received ack: {"type": "push-ack", "lastRefTime":"35635824976700", "data":""} from: 192.168.233.1:65342, cost: 1 ms, unacked: 2, total push: 39
+
+2023-05-04 00:26:35,722 INFO received ack: {"type": "push-ack", "lastRefTime":"35635824976700", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 39
+
+2023-05-04 00:26:35,724 INFO received ack: {"type": "push-ack", "lastRefTime":"35635824976700", "data":""} from: 192.168.233.1:53037, cost: 3 ms, unacked: 0, total push: 39
+
+2023-05-04 00:26:40,715 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:26:40,715 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:53037, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,53037,35640819190900
+
+2023-05-04 00:26:40,715 INFO send udp packet: 192.168.233.1,53037,35640819190900
+
+2023-05-04 00:26:40,716 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35640819190900
+
+2023-05-04 00:26:40,716 INFO send udp packet: 192.168.233.1,65342,35640819190900
+
+2023-05-04 00:26:40,716 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35640819190900
+
+2023-05-04 00:26:40,716 INFO send udp packet: 192.168.233.1,52136,35640819190900
+
+2023-05-04 00:26:40,717 INFO received ack: {"type": "push-ack", "lastRefTime":"35640819190900", "data":""} from: 192.168.233.1:65342, cost: 0 ms, unacked: 2, total push: 42
+
+2023-05-04 00:26:40,717 INFO received ack: {"type": "push-ack", "lastRefTime":"35640819190900", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 42
+
+2023-05-04 00:26:40,717 INFO received ack: {"type": "push-ack", "lastRefTime":"35640819190900", "data":""} from: 192.168.233.1:53037, cost: 2 ms, unacked: 0, total push: 42
+
+2023-05-04 00:26:46,305 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:26:46,305 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:61782, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,61782,35646408863900
+
+2023-05-04 00:26:46,305 INFO send udp packet: 192.168.233.1,61782,35646408863900
+
+2023-05-04 00:26:46,305 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:55618, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55618,35646408863900
+
+2023-05-04 00:26:46,305 INFO send udp packet: 192.168.233.1,55618,35646408863900
+
+2023-05-04 00:26:46,305 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35646408863900
+
+2023-05-04 00:26:46,305 INFO send udp packet: 192.168.233.1,52136,35646408863900
+
+2023-05-04 00:26:46,306 INFO received ack: {"type": "push-ack", "lastRefTime":"35646408863900", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 2, total push: 45
+
+2023-05-04 00:26:46,306 INFO received ack: {"type": "push-ack", "lastRefTime":"35646408863900", "data":""} from: 192.168.233.1:55618, cost: 1 ms, unacked: 1, total push: 45
+
+2023-05-04 00:26:46,308 INFO received ack: {"type": "push-ack", "lastRefTime":"35646408863900", "data":""} from: 192.168.233.1:61782, cost: 3 ms, unacked: 0, total push: 45
+
+2023-05-04 00:27:40,163 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:27:40,163 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:55618, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55618,35700266873100
+
+2023-05-04 00:27:40,163 INFO send udp packet: 192.168.233.1,55618,35700266873100
+
+2023-05-04 00:27:40,163 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35700266873100
+
+2023-05-04 00:27:40,163 INFO send udp packet: 192.168.233.1,52136,35700266873100
+
+2023-05-04 00:27:40,163 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:58643, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,58643,35700266873100
+
+2023-05-04 00:27:40,163 INFO send udp packet: 192.168.233.1,58643,35700266873100
+
+2023-05-04 00:27:40,164 INFO received ack: {"type": "push-ack", "lastRefTime":"35700266873100", "data":""} from: 192.168.233.1:55618, cost: 1 ms, unacked: 2, total push: 48
+
+2023-05-04 00:27:40,164 INFO received ack: {"type": "push-ack", "lastRefTime":"35700266873100", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 48
+
+2023-05-04 00:27:40,166 INFO received ack: {"type": "push-ack", "lastRefTime":"35700266873100", "data":""} from: 192.168.233.1:58643, cost: 3 ms, unacked: 0, total push: 48
+
+2023-05-04 00:28:01,554 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:28:01,554 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35721657801600
+
+2023-05-04 00:28:01,554 INFO send udp packet: 192.168.233.1,65342,35721657801600
+
+2023-05-04 00:28:01,554 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35721657801600
+
+2023-05-04 00:28:01,554 INFO send udp packet: 192.168.233.1,52136,35721657801600
+
+2023-05-04 00:28:01,555 INFO received ack: {"type": "push-ack", "lastRefTime":"35721657801600", "data":""} from: 192.168.233.1:65342, cost: 1 ms, unacked: 1, total push: 50
+
+2023-05-04 00:28:01,555 INFO received ack: {"type": "push-ack", "lastRefTime":"35721657801600", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 0, total push: 50
+
+2023-05-04 00:28:05,494 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:28:05,494 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35725597300400
+
+2023-05-04 00:28:05,494 INFO send udp packet: 192.168.233.1,65342,35725597300400
+
+2023-05-04 00:28:05,494 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35725597300400
+
+2023-05-04 00:28:05,494 INFO send udp packet: 192.168.233.1,52136,35725597300400
+
+2023-05-04 00:28:05,494 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:59462, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,59462,35725597300400
+
+2023-05-04 00:28:05,494 INFO send udp packet: 192.168.233.1,59462,35725597300400
+
+2023-05-04 00:28:05,495 INFO received ack: {"type": "push-ack", "lastRefTime":"35725597300400", "data":""} from: 192.168.233.1:65342, cost: 1 ms, unacked: 2, total push: 53
+
+2023-05-04 00:28:05,495 INFO received ack: {"type": "push-ack", "lastRefTime":"35725597300400", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 53
+
+2023-05-04 00:28:05,497 INFO received ack: {"type": "push-ack", "lastRefTime":"35725597300400", "data":""} from: 192.168.233.1:59462, cost: 3 ms, unacked: 0, total push: 53
+
+2023-05-04 00:28:10,506 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:28:10,506 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:65342, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,65342,35730610065400
+
+2023-05-04 00:28:10,506 INFO send udp packet: 192.168.233.1,65342,35730610065400
+
+2023-05-04 00:28:10,506 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:52136, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52136,35730610065400
+
+2023-05-04 00:28:10,506 INFO send udp packet: 192.168.233.1,52136,35730610065400
+
+2023-05-04 00:28:10,506 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:59462, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,59462,35730610065400
+
+2023-05-04 00:28:10,506 INFO send udp packet: 192.168.233.1,59462,35730610065400
+
+2023-05-04 00:28:10,507 INFO received ack: {"type": "push-ack", "lastRefTime":"35730610065400", "data":""} from: 192.168.233.1:65342, cost: 1 ms, unacked: 2, total push: 56
+
+2023-05-04 00:28:10,507 INFO received ack: {"type": "push-ack", "lastRefTime":"35730610065400", "data":""} from: 192.168.233.1:52136, cost: 1 ms, unacked: 1, total push: 56
+
+2023-05-04 00:28:10,507 INFO received ack: {"type": "push-ack", "lastRefTime":"35730610065400", "data":""} from: 192.168.233.1:59462, cost: 1 ms, unacked: 0, total push: 56
+
+2023-05-04 00:30:19,480 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 00:30:20,501 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 00:30:20,691 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 00:30:21,285 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:30:21,679 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 00:30:21,790 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:30:22,612 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 00:30:25,256 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 00:30:34,516 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 00:30:35,531 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 00:30:35,707 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 00:30:36,309 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 00:30:36,720 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 00:30:36,831 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 00:30:37,622 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 00:30:40,262 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 08:36:33,231 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2023-05-04 08:40:21,849 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 08:40:21,860 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:52607, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52607,65262988525700
+
+2023-05-04 08:40:21,860 INFO send udp packet: 192.168.233.1,52607,65262988525700
+
+2023-05-04 08:40:21,864 INFO received ack: {"type": "push-ack", "lastRefTime":"65262988525700", "data":""} from: 192.168.233.1:52607, cost: 4 ms, unacked: 0, total push: 1
+
+2023-05-04 08:42:02,576 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 08:42:02,577 INFO serviceName: SEATA_GROUP@@task-producer changed, schedule push for: 192.168.233.1:59434, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,59434,65363715933000
+
+2023-05-04 08:42:02,577 INFO send udp packet: 192.168.233.1,59434,65363715933000
+
+2023-05-04 08:42:02,579 INFO received ack: {"type": "push-ack", "lastRefTime":"65363715933000", "data":""} from: 192.168.233.1:59434, cost: 2 ms, unacked: 0, total push: 2
+
+2023-05-04 08:42:05,214 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 08:42:05,214 INFO serviceName: SEATA_GROUP@@task-consumer changed, schedule push for: 192.168.233.1:59436, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,59436,65366353867600
+
+2023-05-04 08:42:05,214 INFO send udp packet: 192.168.233.1,59436,65366353867600
+
+2023-05-04 08:42:05,217 INFO received ack: {"type": "push-ack", "lastRefTime":"65366353867600", "data":""} from: 192.168.233.1:59436, cost: 3 ms, unacked: 0, total push: 3
+
+2023-05-04 08:42:08,584 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 08:42:08,584 INFO serviceName: SEATA_GROUP@@service-third changed, schedule push for: 192.168.233.1:59438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,59438,65369723527600
+
+2023-05-04 08:42:08,584 INFO send udp packet: 192.168.233.1,59438,65369723527600
+
+2023-05-04 08:42:08,586 INFO received ack: {"type": "push-ack", "lastRefTime":"65369723527600", "data":""} from: 192.168.233.1:59438, cost: 2 ms, unacked: 0, total push: 4
+
+2023-05-04 08:42:56,523 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 08:42:56,523 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:50815, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,50815,65417662884800
+
+2023-05-04 08:42:56,523 INFO send udp packet: 192.168.233.1,50815,65417662884800
+
+2023-05-04 08:42:56,526 INFO received ack: {"type": "push-ack", "lastRefTime":"65417662884800", "data":""} from: 192.168.233.1:50815, cost: 3 ms, unacked: 0, total push: 5
+
+2023-05-04 08:43:07,492 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:43:07,492 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54945, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54945,65428632037800
+
+2023-05-04 08:43:07,492 INFO send udp packet: 192.168.233.1,54945,65428632037800
+
+2023-05-04 08:43:07,495 INFO received ack: {"type": "push-ack", "lastRefTime":"65428632037800", "data":""} from: 192.168.233.1:54945, cost: 3 ms, unacked: 0, total push: 6
+
+2023-05-04 08:43:46,356 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 08:43:46,356 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:63020, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63020,65467495404700
+
+2023-05-04 08:43:46,356 INFO send udp packet: 192.168.233.1,63020,65467495404700
+
+2023-05-04 08:43:46,359 INFO received ack: {"type": "push-ack", "lastRefTime":"65467495404700", "data":""} from: 192.168.233.1:63020, cost: 3 ms, unacked: 0, total push: 7
+
+2023-05-04 08:47:43,033 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:47:43,033 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63077, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63077,65704172957500
+
+2023-05-04 08:47:43,033 INFO send udp packet: 192.168.233.1,63077,65704172957500
+
+2023-05-04 08:47:43,036 INFO received ack: {"type": "push-ack", "lastRefTime":"65704172957500", "data":""} from: 192.168.233.1:63077, cost: 3 ms, unacked: 0, total push: 8
+
+2023-05-04 08:48:33,080 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:48:39,538 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:48:39,538 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:64437, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64437,65760677435399
+
+2023-05-04 08:48:39,538 INFO send udp packet: 192.168.233.1,64437,65760677435399
+
+2023-05-04 08:48:39,541 INFO received ack: {"type": "push-ack", "lastRefTime":"65760677435399", "data":""} from: 192.168.233.1:64437, cost: 3 ms, unacked: 0, total push: 9
+
+2023-05-04 08:48:44,540 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:48:44,540 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:64437, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64437,65765680248799
+
+2023-05-04 08:48:44,540 INFO send udp packet: 192.168.233.1,64437,65765680248799
+
+2023-05-04 08:48:44,541 INFO received ack: {"type": "push-ack", "lastRefTime":"65765680248799", "data":""} from: 192.168.233.1:64437, cost: 1 ms, unacked: 0, total push: 10
+
+2023-05-04 08:53:38,548 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:53:38,548 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:54920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54920,66059687780199
+
+2023-05-04 08:53:38,548 INFO send udp packet: 192.168.233.1,54920,66059687780199
+
+2023-05-04 08:53:38,551 INFO received ack: {"type": "push-ack", "lastRefTime":"66059687780199", "data":""} from: 192.168.233.1:54920, cost: 3 ms, unacked: 0, total push: 11
+
+2023-05-04 08:53:44,481 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 08:53:44,481 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:54920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54920,66065621152099
+
+2023-05-04 08:53:44,481 INFO send udp packet: 192.168.233.1,54920,66065621152099
+
+2023-05-04 08:53:44,483 INFO received ack: {"type": "push-ack", "lastRefTime":"66065621152099", "data":""} from: 192.168.233.1:54920, cost: 2 ms, unacked: 0, total push: 12
+
+2023-05-04 08:57:33,298 INFO DEFAULT_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:57:33,298 INFO serviceName: DEFAULT_GROUP@@api-user changed, schedule push for: 192.168.233.1:62597, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62597,66294437895300
+
+2023-05-04 08:57:33,298 INFO send udp packet: 192.168.233.1,62597,66294437895300
+
+2023-05-04 08:57:33,300 INFO received ack: {"type": "push-ack", "lastRefTime":"66294437895300", "data":""} from: 192.168.233.1:62597, cost: 2 ms, unacked: 0, total push: 13
+
+2023-05-04 08:57:33,888 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:57:33,888 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54920,66295028208200
+
+2023-05-04 08:57:33,888 INFO send udp packet: 192.168.233.1,54920,66295028208200
+
+2023-05-04 08:57:33,889 INFO received ack: {"type": "push-ack", "lastRefTime":"66295028208200", "data":""} from: 192.168.233.1:54920, cost: 1 ms, unacked: 0, total push: 14
+
+2023-05-04 08:57:48,933 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:57:48,933 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54920,66310073182099
+
+2023-05-04 08:57:48,933 INFO send udp packet: 192.168.233.1,54920,66310073182099
+
+2023-05-04 08:57:48,935 INFO received ack: {"type": "push-ack", "lastRefTime":"66310073182099", "data":""} from: 192.168.233.1:54920, cost: 2 ms, unacked: 0, total push: 15
+
+2023-05-04 08:59:43,487 INFO DEFAULT_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:59:51,552 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 08:59:51,552 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:49391, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,49391,66432691963599
+
+2023-05-04 08:59:51,552 INFO send udp packet: 192.168.233.1,49391,66432691963599
+
+2023-05-04 08:59:51,555 INFO received ack: {"type": "push-ack", "lastRefTime":"66432691963599", "data":""} from: 192.168.233.1:49391, cost: 2 ms, unacked: 0, total push: 16
+
+2023-05-04 08:59:58,529 INFO DEFAULT_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 09:04:29,433 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 09:04:29,433 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:53225, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,53225,66710573254600
+
+2023-05-04 09:04:29,433 INFO send udp packet: 192.168.233.1,53225,66710573254600
+
+2023-05-04 09:04:29,435 INFO received ack: {"type": "push-ack", "lastRefTime":"66710573254600", "data":""} from: 192.168.233.1:53225, cost: 2 ms, unacked: 0, total push: 17
+
+2023-05-04 09:08:54,899 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 09:08:59,966 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 09:08:59,966 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:55223, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55223,66981106004800
+
+2023-05-04 09:08:59,966 INFO send udp packet: 192.168.233.1,55223,66981106004800
+
+2023-05-04 09:08:59,968 INFO received ack: {"type": "push-ack", "lastRefTime":"66981106004800", "data":""} from: 192.168.233.1:55223, cost: 2 ms, unacked: 0, total push: 18
+
+2023-05-04 09:09:04,974 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 09:09:04,974 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:55223, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55223,66986113733700
+
+2023-05-04 09:09:04,974 INFO send udp packet: 192.168.233.1,55223,66986113733700
+
+2023-05-04 09:09:04,975 INFO received ack: {"type": "push-ack", "lastRefTime":"66986113733700", "data":""} from: 192.168.233.1:55223, cost: 1 ms, unacked: 0, total push: 19
+
+2023-05-04 09:58:34,655 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 09:58:49,674 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:00:29,676 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:00:29,676 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:60930, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60930,70070816254000
+
+2023-05-04 10:00:29,676 INFO send udp packet: 192.168.233.1,60930,70070816254000
+
+2023-05-04 10:00:29,679 INFO received ack: {"type": "push-ack", "lastRefTime":"70070816254000", "data":""} from: 192.168.233.1:60930, cost: 3 ms, unacked: 0, total push: 20
+
+2023-05-04 10:01:54,945 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:01:56,494 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:01:56,494 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:57431, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,57431,70157634376000
+
+2023-05-04 10:01:56,494 INFO send udp packet: 192.168.233.1,57431,70157634376000
+
+2023-05-04 10:01:56,497 INFO received ack: {"type": "push-ack", "lastRefTime":"70157634376000", "data":""} from: 192.168.233.1:57431, cost: 3 ms, unacked: 0, total push: 21
+
+2023-05-04 10:02:01,487 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:02:01,487 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:57431, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,57431,70162626969200
+
+2023-05-04 10:02:01,487 INFO send udp packet: 192.168.233.1,57431,70162626969200
+
+2023-05-04 10:02:01,488 INFO received ack: {"type": "push-ack", "lastRefTime":"70162626969200", "data":""} from: 192.168.233.1:57431, cost: 1 ms, unacked: 0, total push: 22
+
+2023-05-04 10:04:33,176 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:04:33,176 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:54787, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54787,70314316304600
+
+2023-05-04 10:04:33,176 INFO send udp packet: 192.168.233.1,54787,70314316304600
+
+2023-05-04 10:04:33,178 INFO received ack: {"type": "push-ack", "lastRefTime":"70314316304600", "data":""} from: 192.168.233.1:54787, cost: 2 ms, unacked: 0, total push: 23
+
+2023-05-04 10:05:30,346 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:05:30,346 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54787, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54787,70371486194000
+
+2023-05-04 10:05:30,346 INFO send udp packet: 192.168.233.1,54787,70371486194000
+
+2023-05-04 10:05:30,347 INFO received ack: {"type": "push-ack", "lastRefTime":"70371486194000", "data":""} from: 192.168.233.1:54787, cost: 1 ms, unacked: 0, total push: 24
+
+2023-05-04 10:05:34,878 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:05:39,099 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:05:39,099 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54787, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54787,70380238796600
+
+2023-05-04 10:05:39,099 INFO send udp packet: 192.168.233.1,54787,70380238796600
+
+2023-05-04 10:05:39,099 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:55561, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55561,70380238796600
+
+2023-05-04 10:05:39,099 INFO send udp packet: 192.168.233.1,55561,70380238796600
+
+2023-05-04 10:05:39,100 INFO received ack: {"type": "push-ack", "lastRefTime":"70380238796600", "data":""} from: 192.168.233.1:54787, cost: 1 ms, unacked: 1, total push: 26
+
+2023-05-04 10:05:39,103 INFO received ack: {"type": "push-ack", "lastRefTime":"70380238796600", "data":""} from: 192.168.233.1:55561, cost: 4 ms, unacked: 0, total push: 26
+
+2023-05-04 10:05:40,994 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:05:40,994 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:55563, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55563,70382133705400
+
+2023-05-04 10:05:40,994 INFO send udp packet: 192.168.233.1,55563,70382133705400
+
+2023-05-04 10:05:40,997 INFO received ack: {"type": "push-ack", "lastRefTime":"70382133705400", "data":""} from: 192.168.233.1:55563, cost: 3 ms, unacked: 0, total push: 27
+
+2023-05-04 10:05:44,114 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:05:44,114 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:54787, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54787,70385253408600
+
+2023-05-04 10:05:44,114 INFO send udp packet: 192.168.233.1,54787,70385253408600
+
+2023-05-04 10:05:44,114 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:55561, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55561,70385253408600
+
+2023-05-04 10:05:44,114 INFO send udp packet: 192.168.233.1,55561,70385253408600
+
+2023-05-04 10:05:44,115 INFO received ack: {"type": "push-ack", "lastRefTime":"70385253408600", "data":""} from: 192.168.233.1:54787, cost: 1 ms, unacked: 1, total push: 29
+
+2023-05-04 10:05:44,115 INFO received ack: {"type": "push-ack", "lastRefTime":"70385253408600", "data":""} from: 192.168.233.1:55561, cost: 1 ms, unacked: 0, total push: 29
+
+2023-05-04 10:05:44,546 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:05:45,983 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:05:45,983 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:55563, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,55563,70387122629700
+
+2023-05-04 10:05:45,983 INFO send udp packet: 192.168.233.1,55563,70387122629700
+
+2023-05-04 10:05:45,984 INFO received ack: {"type": "push-ack", "lastRefTime":"70387122629700", "data":""} from: 192.168.233.1:55563, cost: 1 ms, unacked: 0, total push: 30
+
+2023-05-04 10:05:46,280 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:05:46,280 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:62124, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62124,70387419548500
+
+2023-05-04 10:05:46,280 INFO send udp packet: 192.168.233.1,62124,70387419548500
+
+2023-05-04 10:05:46,282 INFO received ack: {"type": "push-ack", "lastRefTime":"70387419548500", "data":""} from: 192.168.233.1:62124, cost: 2 ms, unacked: 0, total push: 31
+
+2023-05-04 10:05:51,276 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:05:51,276 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:62124, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62124,70392416455400
+
+2023-05-04 10:05:51,276 INFO send udp packet: 192.168.233.1,62124,70392416455400
+
+2023-05-04 10:05:51,277 INFO received ack: {"type": "push-ack", "lastRefTime":"70392416455400", "data":""} from: 192.168.233.1:62124, cost: 1 ms, unacked: 0, total push: 32
+
+2023-05-04 10:08:54,839 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:08:55,219 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:08:55,654 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:08:55,654 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:08:55,872 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:08:56,964 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:08:58,438 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:09:09,852 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:09:10,225 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:09:10,688 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:09:10,688 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:09:10,910 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:09:11,979 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:09:13,463 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:09:56,318 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:09:56,318 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:50872, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,50872,70637457582400
+
+2023-05-04 10:09:56,318 INFO send udp packet: 192.168.233.1,50872,70637457582400
+
+2023-05-04 10:09:56,320 INFO received ack: {"type": "push-ack", "lastRefTime":"70637457582400", "data":""} from: 192.168.233.1:50872, cost: 2 ms, unacked: 0, total push: 33
+
+2023-05-04 10:10:02,616 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:10:02,616 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:50874, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,50874,70643756336200
+
+2023-05-04 10:10:02,616 INFO send udp packet: 192.168.233.1,50874,70643756336200
+
+2023-05-04 10:10:02,618 INFO received ack: {"type": "push-ack", "lastRefTime":"70643756336200", "data":""} from: 192.168.233.1:50874, cost: 2 ms, unacked: 0, total push: 34
+
+2023-05-04 10:11:20,907 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:11:23,715 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:11:23,715 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63056, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63056,70724855186400
+
+2023-05-04 10:11:23,715 INFO send udp packet: 192.168.233.1,63056,70724855186400
+
+2023-05-04 10:11:23,718 INFO received ack: {"type": "push-ack", "lastRefTime":"70724855186400", "data":""} from: 192.168.233.1:63056, cost: 3 ms, unacked: 0, total push: 35
+
+2023-05-04 10:11:28,706 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:11:28,706 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63056, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63056,70729846209700
+
+2023-05-04 10:11:28,706 INFO send udp packet: 192.168.233.1,63056,70729846209700
+
+2023-05-04 10:11:28,707 INFO received ack: {"type": "push-ack", "lastRefTime":"70729846209700", "data":""} from: 192.168.233.1:63056, cost: 1 ms, unacked: 0, total push: 36
+
+2023-05-04 10:12:10,131 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:12:10,972 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:12:25,145 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:12:25,981 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:32:10,158 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:32:10,158 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:57066, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,57066,71971298134600
+
+2023-05-04 10:32:10,158 INFO send udp packet: 192.168.233.1,57066,71971298134600
+
+2023-05-04 10:32:10,160 INFO received ack: {"type": "push-ack", "lastRefTime":"71971298134600", "data":""} from: 192.168.233.1:57066, cost: 2 ms, unacked: 0, total push: 37
+
+2023-05-04 10:32:30,494 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:32:30,494 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:62366, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62366,71991633571700
+
+2023-05-04 10:32:30,494 INFO send udp packet: 192.168.233.1,62366,71991633571700
+
+2023-05-04 10:32:30,496 INFO received ack: {"type": "push-ack", "lastRefTime":"71991633571700", "data":""} from: 192.168.233.1:62366, cost: 2 ms, unacked: 0, total push: 38
+
+2023-05-04 10:34:37,932 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 10:34:37,932 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72119071492000
+
+2023-05-04 10:34:37,932 INFO send udp packet: 192.168.233.1,51300,72119071492000
+
+2023-05-04 10:34:37,932 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72119071492000
+
+2023-05-04 10:34:37,932 INFO send udp packet: 192.168.233.1,51300,72119071492000
+
+2023-05-04 10:34:37,934 INFO received ack: {"type": "push-ack", "lastRefTime":"72119071492000", "data":""} from: 192.168.233.1:51300, cost: 2 ms, unacked: 0, total push: 39
+
+2023-05-04 10:34:37,939 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.233.1,51300,72119071492000, ack json: {"type": "push-ack", "lastRefTime":"72119071492000", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-04 10:35:36,064 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:35:36,064 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:64740, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64740,72177203474100
+
+2023-05-04 10:35:36,064 INFO send udp packet: 192.168.233.1,64740,72177203474100
+
+2023-05-04 10:35:36,064 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72177203474100
+
+2023-05-04 10:35:36,064 INFO send udp packet: 192.168.233.1,51300,72177203474100
+
+2023-05-04 10:35:36,065 INFO received ack: {"type": "push-ack", "lastRefTime":"72177203474100", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 41
+
+2023-05-04 10:35:36,067 INFO received ack: {"type": "push-ack", "lastRefTime":"72177203474100", "data":""} from: 192.168.233.1:64740, cost: 3 ms, unacked: 0, total push: 41
+
+2023-05-04 10:35:39,702 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:35:39,702 INFO serviceName: SEATA_GROUP@@service-third changed, schedule push for: 192.168.233.1:64742, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64742,72180841741900
+
+2023-05-04 10:35:39,702 INFO send udp packet: 192.168.233.1,64742,72180841741900
+
+2023-05-04 10:35:39,704 INFO received ack: {"type": "push-ack", "lastRefTime":"72180841741900", "data":""} from: 192.168.233.1:64742, cost: 2 ms, unacked: 0, total push: 42
+
+2023-05-04 10:35:42,884 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:35:42,884 INFO serviceName: SEATA_GROUP@@task-consumer changed, schedule push for: 192.168.233.1:64744, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64744,72184024257200
+
+2023-05-04 10:35:42,884 INFO send udp packet: 192.168.233.1,64744,72184024257200
+
+2023-05-04 10:35:42,886 INFO received ack: {"type": "push-ack", "lastRefTime":"72184024257200", "data":""} from: 192.168.233.1:64744, cost: 2 ms, unacked: 0, total push: 43
+
+2023-05-04 10:35:45,557 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:35:45,557 INFO serviceName: SEATA_GROUP@@task-producer changed, schedule push for: 192.168.233.1:64746, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64746,72186697131300
+
+2023-05-04 10:35:45,557 INFO send udp packet: 192.168.233.1,64746,72186697131300
+
+2023-05-04 10:35:45,560 INFO received ack: {"type": "push-ack", "lastRefTime":"72186697131300", "data":""} from: 192.168.233.1:64746, cost: 3 ms, unacked: 0, total push: 44
+
+2023-05-04 10:35:47,420 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:35:47,420 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:54898, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54898,72188559655300
+
+2023-05-04 10:35:47,420 INFO send udp packet: 192.168.233.1,54898,72188559655300
+
+2023-05-04 10:35:47,423 INFO received ack: {"type": "push-ack", "lastRefTime":"72188559655300", "data":""} from: 192.168.233.1:54898, cost: 3 ms, unacked: 0, total push: 45
+
+2023-05-04 10:38:45,766 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:38:45,766 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72366905884900
+
+2023-05-04 10:38:45,766 INFO send udp packet: 192.168.233.1,51300,72366905884900
+
+2023-05-04 10:38:45,767 INFO received ack: {"type": "push-ack", "lastRefTime":"72366905884900", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 0, total push: 46
+
+2023-05-04 10:38:52,299 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:38:52,299 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72373438463500
+
+2023-05-04 10:38:52,299 INFO send udp packet: 192.168.233.1,51300,72373438463500
+
+2023-05-04 10:38:52,299 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63810, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63810,72373438463500
+
+2023-05-04 10:38:52,300 INFO send udp packet: 192.168.233.1,63810,72373438463500
+
+2023-05-04 10:38:52,300 INFO received ack: {"type": "push-ack", "lastRefTime":"72373438463500", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 48
+
+2023-05-04 10:38:52,303 INFO received ack: {"type": "push-ack", "lastRefTime":"72373438463500", "data":""} from: 192.168.233.1:63810, cost: 3 ms, unacked: 0, total push: 48
+
+2023-05-04 10:38:52,682 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:38:52,682 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72373821385500
+
+2023-05-04 10:38:52,682 INFO send udp packet: 192.168.233.1,51300,72373821385500
+
+2023-05-04 10:38:52,683 INFO received ack: {"type": "push-ack", "lastRefTime":"72373821385500", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 0, total push: 49
+
+2023-05-04 10:38:57,303 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:38:57,303 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72378442987000
+
+2023-05-04 10:38:57,303 INFO send udp packet: 192.168.233.1,51300,72378442987000
+
+2023-05-04 10:38:57,303 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63810, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63810,72378442987000
+
+2023-05-04 10:38:57,303 INFO send udp packet: 192.168.233.1,63810,72378442987000
+
+2023-05-04 10:38:57,303 INFO received ack: {"type": "push-ack", "lastRefTime":"72378442987000", "data":""} from: 192.168.233.1:51300, cost: 0 ms, unacked: 1, total push: 51
+
+2023-05-04 10:38:57,304 INFO received ack: {"type": "push-ack", "lastRefTime":"72378442987000", "data":""} from: 192.168.233.1:63810, cost: 1 ms, unacked: 0, total push: 51
+
+2023-05-04 10:38:57,381 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:38:57,381 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72378520830100
+
+2023-05-04 10:38:57,381 INFO send udp packet: 192.168.233.1,51300,72378520830100
+
+2023-05-04 10:38:57,381 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:60971, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60971,72378520830100
+
+2023-05-04 10:38:57,381 INFO send udp packet: 192.168.233.1,60971,72378520830100
+
+2023-05-04 10:38:57,382 INFO received ack: {"type": "push-ack", "lastRefTime":"72378520830100", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 53
+
+2023-05-04 10:38:57,384 INFO received ack: {"type": "push-ack", "lastRefTime":"72378520830100", "data":""} from: 192.168.233.1:60971, cost: 3 ms, unacked: 0, total push: 53
+
+2023-05-04 10:39:02,375 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:39:02,375 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72383514665100
+
+2023-05-04 10:39:02,375 INFO send udp packet: 192.168.233.1,51300,72383514665100
+
+2023-05-04 10:39:02,375 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:60971, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60971,72383514665100
+
+2023-05-04 10:39:02,375 INFO send udp packet: 192.168.233.1,60971,72383514665100
+
+2023-05-04 10:39:02,376 INFO received ack: {"type": "push-ack", "lastRefTime":"72383514665100", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 55
+
+2023-05-04 10:39:02,376 INFO received ack: {"type": "push-ack", "lastRefTime":"72383514665100", "data":""} from: 192.168.233.1:60971, cost: 1 ms, unacked: 0, total push: 55
+
+2023-05-04 10:41:11,044 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:41:11,044 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72512184257900
+
+2023-05-04 10:41:11,044 INFO send udp packet: 192.168.233.1,51300,72512184257900
+
+2023-05-04 10:41:11,045 INFO received ack: {"type": "push-ack", "lastRefTime":"72512184257900", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 0, total push: 56
+
+2023-05-04 10:41:12,799 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:41:12,799 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72513938758700
+
+2023-05-04 10:41:12,799 INFO send udp packet: 192.168.233.1,51300,72513938758700
+
+2023-05-04 10:41:12,799 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63936,72513938758700
+
+2023-05-04 10:41:12,799 INFO send udp packet: 192.168.233.1,63936,72513938758700
+
+2023-05-04 10:41:12,800 INFO received ack: {"type": "push-ack", "lastRefTime":"72513938758700", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 58
+
+2023-05-04 10:41:12,802 INFO received ack: {"type": "push-ack", "lastRefTime":"72513938758700", "data":""} from: 192.168.233.1:63936, cost: 3 ms, unacked: 0, total push: 58
+
+2023-05-04 10:41:17,802 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:41:17,802 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72518942366600
+
+2023-05-04 10:41:17,802 INFO send udp packet: 192.168.233.1,51300,72518942366600
+
+2023-05-04 10:41:17,802 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:63936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,63936,72518942366600
+
+2023-05-04 10:41:17,802 INFO send udp packet: 192.168.233.1,63936,72518942366600
+
+2023-05-04 10:41:17,803 INFO received ack: {"type": "push-ack", "lastRefTime":"72518942366600", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 60
+
+2023-05-04 10:41:17,803 INFO received ack: {"type": "push-ack", "lastRefTime":"72518942366600", "data":""} from: 192.168.233.1:63936, cost: 1 ms, unacked: 0, total push: 60
+
+2023-05-04 10:45:02,016 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:45:02,016 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72743155718000
+
+2023-05-04 10:45:02,016 INFO send udp packet: 192.168.233.1,51300,72743155718000
+
+2023-05-04 10:45:02,017 INFO received ack: {"type": "push-ack", "lastRefTime":"72743155718000", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 0, total push: 61
+
+2023-05-04 10:45:03,135 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:45:03,135 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:60979, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60979,72744274704700
+
+2023-05-04 10:45:03,135 INFO send udp packet: 192.168.233.1,60979,72744274704700
+
+2023-05-04 10:45:03,136 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72744274704700
+
+2023-05-04 10:45:03,136 INFO send udp packet: 192.168.233.1,51300,72744274704700
+
+2023-05-04 10:45:03,136 INFO received ack: {"type": "push-ack", "lastRefTime":"72744274704700", "data":""} from: 192.168.233.1:51300, cost: 0 ms, unacked: 1, total push: 63
+
+2023-05-04 10:45:03,139 INFO received ack: {"type": "push-ack", "lastRefTime":"72744274704700", "data":""} from: 192.168.233.1:60979, cost: 4 ms, unacked: 0, total push: 63
+
+2023-05-04 10:45:03,349 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:45:03,349 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:62366, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62366,72744489167500
+
+2023-05-04 10:45:03,349 INFO send udp packet: 192.168.233.1,62366,72744489167500
+
+2023-05-04 10:45:03,349 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72744489167500
+
+2023-05-04 10:45:03,349 INFO send udp packet: 192.168.233.1,51300,72744489167500
+
+2023-05-04 10:45:03,350 INFO received ack: {"type": "push-ack", "lastRefTime":"72744489167500", "data":""} from: 192.168.233.1:62366, cost: 1 ms, unacked: 1, total push: 65
+
+2023-05-04 10:45:03,350 INFO received ack: {"type": "push-ack", "lastRefTime":"72744489167500", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 0, total push: 65
+
+2023-05-04 10:45:07,514 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:45:07,514 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:62366, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62366,72748653994300
+
+2023-05-04 10:45:07,514 INFO send udp packet: 192.168.233.1,62366,72748653994300
+
+2023-05-04 10:45:07,514 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:60981, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60981,72748653994300
+
+2023-05-04 10:45:07,514 INFO send udp packet: 192.168.233.1,60981,72748653994300
+
+2023-05-04 10:45:07,514 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72748653994300
+
+2023-05-04 10:45:07,514 INFO send udp packet: 192.168.233.1,51300,72748653994300
+
+2023-05-04 10:45:07,515 INFO received ack: {"type": "push-ack", "lastRefTime":"72748653994300", "data":""} from: 192.168.233.1:62366, cost: 1 ms, unacked: 2, total push: 68
+
+2023-05-04 10:45:07,515 INFO received ack: {"type": "push-ack", "lastRefTime":"72748653994300", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 68
+
+2023-05-04 10:45:07,517 INFO received ack: {"type": "push-ack", "lastRefTime":"72748653994300", "data":""} from: 192.168.233.1:60981, cost: 3 ms, unacked: 0, total push: 68
+
+2023-05-04 10:45:08,137 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:45:08,137 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:60979, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60979,72749276259000
+
+2023-05-04 10:45:08,137 INFO send udp packet: 192.168.233.1,60979,72749276259000
+
+2023-05-04 10:45:08,137 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72749276259000
+
+2023-05-04 10:45:08,137 INFO send udp packet: 192.168.233.1,51300,72749276259000
+
+2023-05-04 10:45:08,138 INFO received ack: {"type": "push-ack", "lastRefTime":"72749276259000", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 70
+
+2023-05-04 10:45:08,138 INFO received ack: {"type": "push-ack", "lastRefTime":"72749276259000", "data":""} from: 192.168.233.1:60979, cost: 1 ms, unacked: 0, total push: 70
+
+2023-05-04 10:45:12,513 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:45:12,513 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:62366, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62366,72753652737900
+
+2023-05-04 10:45:12,513 INFO send udp packet: 192.168.233.1,62366,72753652737900
+
+2023-05-04 10:45:12,513 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:60981, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,60981,72753652737900
+
+2023-05-04 10:45:12,513 INFO send udp packet: 192.168.233.1,60981,72753652737900
+
+2023-05-04 10:45:12,513 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:51300, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,51300,72753652737900
+
+2023-05-04 10:45:12,513 INFO send udp packet: 192.168.233.1,51300,72753652737900
+
+2023-05-04 10:45:12,514 INFO received ack: {"type": "push-ack", "lastRefTime":"72753652737900", "data":""} from: 192.168.233.1:62366, cost: 1 ms, unacked: 2, total push: 73
+
+2023-05-04 10:45:12,514 INFO received ack: {"type": "push-ack", "lastRefTime":"72753652737900", "data":""} from: 192.168.233.1:51300, cost: 1 ms, unacked: 1, total push: 73
+
+2023-05-04 10:45:12,514 INFO received ack: {"type": "push-ack", "lastRefTime":"72753652737900", "data":""} from: 192.168.233.1:60981, cost: 1 ms, unacked: 0, total push: 73
+
+2023-05-04 10:46:16,596 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:46:16,814 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:46:18,486 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:46:18,859 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:46:18,952 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 10:46:20,761 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:46:21,548 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:46:22,148 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:46:31,618 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:46:31,851 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:46:33,518 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:46:33,877 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:46:33,971 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 10:46:35,767 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:46:36,562 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:46:37,178 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:47:44,444 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 10:47:44,444 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:54189, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54189,72905583769900
+
+2023-05-04 10:47:44,444 INFO send udp packet: 192.168.233.1,54189,72905583769900
+
+2023-05-04 10:47:44,447 INFO received ack: {"type": "push-ack", "lastRefTime":"72905583769900", "data":""} from: 192.168.233.1:54189, cost: 3 ms, unacked: 0, total push: 74
+
+2023-05-04 10:48:26,734 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 10:48:26,734 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72947873992900
+
+2023-05-04 10:48:26,734 INFO send udp packet: 192.168.233.1,64897,72947873992900
+
+2023-05-04 10:48:26,734 INFO serviceName: SEATA_GROUP@@gateway changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72947873992900
+
+2023-05-04 10:48:26,734 INFO send udp packet: 192.168.233.1,64897,72947873992900
+
+2023-05-04 10:48:26,737 INFO received ack: {"type": "push-ack", "lastRefTime":"72947873992900", "data":""} from: 192.168.233.1:64897, cost: 3 ms, unacked: 0, total push: 75
+
+2023-05-04 10:48:26,738 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.233.1,64897,72947873992900, ack json: {"type": "push-ack", "lastRefTime":"72947873992900", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-04 10:48:33,126 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 10:48:33,126 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72954265906300
+
+2023-05-04 10:48:33,126 INFO send udp packet: 192.168.233.1,64897,72954265906300
+
+2023-05-04 10:48:33,126 INFO serviceName: SEATA_GROUP@@api-user changed, schedule push for: 192.168.233.1:64895, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64895,72954265906300
+
+2023-05-04 10:48:33,126 INFO send udp packet: 192.168.233.1,64895,72954265906300
+
+2023-05-04 10:48:33,129 INFO received ack: {"type": "push-ack", "lastRefTime":"72954265906300", "data":""} from: 192.168.233.1:64897, cost: 3 ms, unacked: 1, total push: 77
+
+2023-05-04 10:48:33,133 INFO received ack: {"type": "push-ack", "lastRefTime":"72954265906300", "data":""} from: 192.168.233.1:64895, cost: 7 ms, unacked: 0, total push: 77
+
+2023-05-04 10:48:38,518 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 10:48:38,518 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72959657457700
+
+2023-05-04 10:48:38,518 INFO send udp packet: 192.168.233.1,64897,72959657457700
+
+2023-05-04 10:48:38,518 INFO serviceName: SEATA_GROUP@@service-middleware changed, schedule push for: 192.168.233.1:64901, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64901,72959657457700
+
+2023-05-04 10:48:38,518 INFO send udp packet: 192.168.233.1,64901,72959657457700
+
+2023-05-04 10:48:38,519 INFO received ack: {"type": "push-ack", "lastRefTime":"72959657457700", "data":""} from: 192.168.233.1:64897, cost: 1 ms, unacked: 1, total push: 79
+
+2023-05-04 10:48:38,522 INFO received ack: {"type": "push-ack", "lastRefTime":"72959657457700", "data":""} from: 192.168.233.1:64901, cost: 4 ms, unacked: 0, total push: 79
+
+2023-05-04 10:48:42,573 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 10:48:42,573 INFO serviceName: SEATA_GROUP@@service-third changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72963712597000
+
+2023-05-04 10:48:42,573 INFO send udp packet: 192.168.233.1,64897,72963712597000
+
+2023-05-04 10:48:42,573 INFO serviceName: SEATA_GROUP@@service-third changed, schedule push for: 192.168.233.1:52710, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52710,72963712597000
+
+2023-05-04 10:48:42,573 INFO send udp packet: 192.168.233.1,52710,72963712597000
+
+2023-05-04 10:48:42,575 INFO received ack: {"type": "push-ack", "lastRefTime":"72963712597000", "data":""} from: 192.168.233.1:64897, cost: 2 ms, unacked: 1, total push: 81
+
+2023-05-04 10:48:42,576 INFO received ack: {"type": "push-ack", "lastRefTime":"72963712597000", "data":""} from: 192.168.233.1:52710, cost: 3 ms, unacked: 0, total push: 81
+
+2023-05-04 10:48:45,381 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 10:48:45,381 INFO serviceName: SEATA_GROUP@@task-consumer changed, schedule push for: 192.168.233.1:52712, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,52712,72966521091900
+
+2023-05-04 10:48:45,381 INFO send udp packet: 192.168.233.1,52712,72966521091900
+
+2023-05-04 10:48:45,381 INFO serviceName: SEATA_GROUP@@task-consumer changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72966521091900
+
+2023-05-04 10:48:45,381 INFO send udp packet: 192.168.233.1,64897,72966521091900
+
+2023-05-04 10:48:45,384 INFO received ack: {"type": "push-ack", "lastRefTime":"72966521091900", "data":""} from: 192.168.233.1:52712, cost: 3 ms, unacked: 1, total push: 83
+
+2023-05-04 10:48:45,384 INFO received ack: {"type": "push-ack", "lastRefTime":"72966521091900", "data":""} from: 192.168.233.1:64897, cost: 3 ms, unacked: 0, total push: 83
+
+2023-05-04 10:48:48,059 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 10:48:48,059 INFO serviceName: SEATA_GROUP@@task-producer changed, schedule push for: 192.168.233.1:54528, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,54528,72969199038700
+
+2023-05-04 10:48:48,059 INFO send udp packet: 192.168.233.1,54528,72969199038700
+
+2023-05-04 10:48:48,059 INFO serviceName: SEATA_GROUP@@task-producer changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,72969199038700
+
+2023-05-04 10:48:48,059 INFO send udp packet: 192.168.233.1,64897,72969199038700
+
+2023-05-04 10:48:48,061 INFO received ack: {"type": "push-ack", "lastRefTime":"72969199038700", "data":""} from: 192.168.233.1:64897, cost: 2 ms, unacked: 1, total push: 85
+
+2023-05-04 10:48:48,062 INFO received ack: {"type": "push-ack", "lastRefTime":"72969199038700", "data":""} from: 192.168.233.1:54528, cost: 3 ms, unacked: 0, total push: 85
+
+2023-05-04 10:48:50,787 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 10:48:50,787 INFO serviceName: SEATA_GROUP@@job changed, schedule push for: 192.168.233.1:62165, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,62165,72971926686400
+
+2023-05-04 10:48:50,787 INFO send udp packet: 192.168.233.1,62165,72971926686400
+
+2023-05-04 10:48:50,790 INFO received ack: {"type": "push-ack", "lastRefTime":"72971926686400", "data":""} from: 192.168.233.1:62165, cost: 3 ms, unacked: 0, total push: 86
+
+2023-05-04 11:01:17,913 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 11:01:17,913 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,73719052625900
+
+2023-05-04 11:01:17,913 INFO send udp packet: 192.168.233.1,64897,73719052625900
+
+2023-05-04 11:01:17,914 INFO received ack: {"type": "push-ack", "lastRefTime":"73719052625900", "data":""} from: 192.168.233.1:64897, cost: 1 ms, unacked: 0, total push: 87
+
+2023-05-04 11:01:20,256 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 11:01:20,256 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,73721395393000
+
+2023-05-04 11:01:20,256 INFO send udp packet: 192.168.233.1,64897,73721395393000
+
+2023-05-04 11:01:20,256 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:57356, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,57356,73721395393000
+
+2023-05-04 11:01:20,256 INFO send udp packet: 192.168.233.1,57356,73721395393000
+
+2023-05-04 11:01:20,256 INFO received ack: {"type": "push-ack", "lastRefTime":"73721395393000", "data":""} from: 192.168.233.1:64897, cost: 0 ms, unacked: 1, total push: 89
+
+2023-05-04 11:01:20,258 INFO received ack: {"type": "push-ack", "lastRefTime":"73721395393000", "data":""} from: 192.168.233.1:57356, cost: 2 ms, unacked: 0, total push: 89
+
+2023-05-04 11:01:25,267 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 11:01:25,267 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:64897, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,64897,73726406962700
+
+2023-05-04 11:01:25,267 INFO send udp packet: 192.168.233.1,64897,73726406962700
+
+2023-05-04 11:01:25,267 INFO serviceName: SEATA_GROUP@@api-admin changed, schedule push for: 192.168.233.1:57356, agent: Nacos-Java-Client:v1.4.1, key: 192.168.233.1,57356,73726406962700
+
+2023-05-04 11:01:25,267 INFO send udp packet: 192.168.233.1,57356,73726406962700
+
+2023-05-04 11:01:25,268 INFO received ack: {"type": "push-ack", "lastRefTime":"73726406962700", "data":""} from: 192.168.233.1:64897, cost: 1 ms, unacked: 1, total push: 91
+
+2023-05-04 11:01:25,268 INFO received ack: {"type": "push-ack", "lastRefTime":"73726406962700", "data":""} from: 192.168.233.1:57356, cost: 1 ms, unacked: 0, total push: 91
+
+2023-05-04 11:35:07,949 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 11:35:08,717 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 11:35:10,357 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 11:35:11,245 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 11:35:11,466 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 11:35:11,765 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 11:35:13,466 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 11:35:16,248 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+
+2023-05-04 11:35:22,976 INFO SEATA_GROUP@@job is changed, add it to push queue.
+
+2023-05-04 11:35:23,756 INFO SEATA_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-04 11:35:25,367 INFO SEATA_GROUP@@service-third is changed, add it to push queue.
+
+2023-05-04 11:35:26,267 INFO SEATA_GROUP@@task-producer is changed, add it to push queue.
+
+2023-05-04 11:35:26,501 INFO SEATA_GROUP@@api-user is changed, add it to push queue.
+
+2023-05-04 11:35:26,797 INFO SEATA_GROUP@@service-middleware is changed, add it to push queue.
+
+2023-05-04 11:35:28,489 INFO SEATA_GROUP@@task-consumer is changed, add it to push queue.
+
+2023-05-04 11:35:31,281 INFO SEATA_GROUP@@api-admin is changed, add it to push queue.
+

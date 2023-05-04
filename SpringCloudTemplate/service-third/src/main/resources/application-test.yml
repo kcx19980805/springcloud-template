@@ -1,0 +1,113 @@
+server:
+  port: 8892
+spring:
+  application:
+    name: service-third
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: kcx_tx_group
+    #nacos注册中心地址
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        #这里跟seata服务端配置的group一致
+        group: SEATA_GROUP
+    #sentinel服务限流熔断
+    sentinel:
+      transport:
+        #配置Sentinel平台地址
+        dashboard: http://127.0.0.1:8080
+        #服务运行地址，默认8719端口，假如被占用会自动从8719开始依次+1扫描,直至找到未被占用的端口
+        port: 8791
+      #sentinel限流持久化
+      datasource:
+        ds1:
+          #从nacos配置列表读取，需要自行配置
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: service-third-sentinel
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+  #分布式链路追踪监控平台
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  #分布式请求链路跟踪
+  sleuth:
+    sampler:
+      #采样率值介于 0 到 1 之间，1 则表示全部采集
+      probability: 1
+  #mybatis动态数据源
+  datasource:
+    dynamic:
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      strict: false #设置严格模式,默认false不启动. 启动后在未匹配到指定数据源时候会抛出异常,不启动则使用默认数据源.
+      #自定义多个数据源，@DS("slave1")注解切换
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/springcloud-template?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+          username: root
+          password: 19980805kcx
+        slave1:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/springcloud-template2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+          username: root
+          password: 19980805kcx
+  #redis 配置
+  redis:
+    #地址
+    host: 127.0.0.1
+    #端口，默认为6379
+    port: 6379
+    #数据库
+    database: 1
+  #邮箱
+  mail:
+    host: smtp.qq.com #qq邮箱smtp服务
+    username: 1255753142@qq.com #邮箱用户名
+    password: dpdjhxxtdwhfifac #邮箱smtp服务密码
+    default-encoding: UTF-8
+#fegin超时时间
+feign:
+  client:
+    config:
+      default:
+        #网络状况正常的情况下,两端连接所用的时间
+        connectTimeout: 3000
+        #建立连接后从服务器读取到可用资源所用的时间
+        readTimeout: 5000
+  #激活Sentinel对Feign的支持,可以在feign注解上加失败处理类
+  sentinel:
+    enabled: true
+#seata配置，这里注意要先在seata的conf目录下执行 sh nacos-config.sh 127.0.0.1将配置推到nacos中，window打开git bash执行
+seata:
+  enabled: true
+  application-id: ${spring.application.name}
+  tx-service-group: kcx_tx_group  #这里要特别注意和nacos中配置的要保持一致
+  registry:
+    type: nacos
+    nacos:
+      serverAddr: ${spring.cloud.nacos.discovery.server-addr}
+      username: ${spring.cloud.nacos.discovery.username}
+      password: ${spring.cloud.nacos.discovery.password}
+      group: ${spring.cloud.nacos.discovery.group}
+  config:
+    type: nacos
+    nacos:
+      server-addr: ${spring.cloud.nacos.discovery.server-addr}
+      username: ${spring.cloud.nacos.discovery.username}
+      password: ${spring.cloud.nacos.discovery.password}
+      group: ${spring.cloud.nacos.discovery.group}
+  service:
+    vgroup-mapping:
+      kcx_tx_group: default
+#-------------------------------------------------自定义属性--------------------------------------------------
+#文件映射路径
+file:
+  uploadPath: file/service-third/upload/      #文件上传路径
+  uploadMaxSize: 2048000                #单文件上传大小 2000M
+  downloadPath: file/service-third/download/  #文件下载路径
