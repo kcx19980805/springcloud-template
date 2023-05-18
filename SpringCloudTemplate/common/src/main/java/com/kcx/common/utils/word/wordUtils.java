@@ -15,15 +15,15 @@ import java.util.List;
 /**
  * word文件工具类
  */
-public class wordUtils {
+public class WordUtils {
 
     /**
      * 输出word到浏览器
-     * @param response 浏览器响应对象
      * @param paragraphList 段落列表
      * @param fileName 文件名称
+     * @param response 浏览器响应对象
      */
-    public static void writeWordToFile(HttpServletResponse response,List<WordParagraphEntity> paragraphList,String fileName){
+    public static void writeWordToFile(List<WordParagraphEntity> paragraphList,String fileName,HttpServletResponse response){
         try {
             fileName = URLEncoder.encode(fileName, "UTF-8");
             response.setCharacterEncoding("UTF-8");

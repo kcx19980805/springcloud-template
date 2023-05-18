@@ -222,7 +222,7 @@ public class AlipayUtils {
      * @param callback 需要执行的具体的业务逻辑，返回值为null就行，具体业务逻辑使用ReentrantLock加锁，微信回调会非常频繁的发送，防止并发修改数据库
      * @return 返回给支付宝方一个字符串
      */
-    public static String payNotifyCallBack(AlipayBaseConfig alipayClientBaseConfig, Map<String, String> params, ReentrantLock reentrantLock, Supplier<String> callback){
+    public synchronized static String payNotifyCallBack(AlipayBaseConfig alipayClientBaseConfig, Map<String, String> params, ReentrantLock reentrantLock, Supplier<String> callback){
         //通知验签,证明是支付宝发送的回调而非其它程序
         try {
             boolean signVerified = AlipaySignature.rsaCheckV1(params,alipayClientBaseConfig.alipayPublicKey, AlipayConstants.CHARSET_UTF8,AlipayConstants.SIGN_TYPE_RSA2);

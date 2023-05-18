@@ -5,7 +5,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
- * sha不可逆加密
+ * sha安全哈希算法（Secure Hash Algorithm），不可逆加密，在不知道salt的情况下无法破解，相比md5更安全
  * 对于任意长度的消息，SHA256都会产生一个256位的哈希值，称作消息摘要。
  * 这个摘要相当于是个长度为32个字节的数组，共256位，通常由一个长度为64的十六进制字符串来表示，其中1个字节=8位，一个十六进制的字符的长度为4位
  * 主要用于shiro权限认证

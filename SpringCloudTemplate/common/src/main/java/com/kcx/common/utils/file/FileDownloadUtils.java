@@ -17,18 +17,18 @@ public class FileDownloadUtils {
 
     /**
      * 下载文件到浏览器
-     *
-     * @param baseDir  存储文件的基目录
-     * @param fileName 文件名称
+     * @param pathName 存储的源文件全路径
      * @param response 网页响应对象
      * @param request  网页请求对象
      */
-    public static void downloadFileToWeb(String baseDir, String fileName, HttpServletResponse response, HttpServletRequest request) {
+    public static void downloadFileToWeb(String pathName, HttpServletResponse response, HttpServletRequest request) {
+        File file = new File(pathName);
         try {
             response.setCharacterEncoding("utf-8");
+            //自动判断下载文件类型
             response.setContentType("multipart/form-data");
-            response.setHeader("Content-Disposition", "attachment;fileName=" + FileUtils.setFileDownloadHeader(request, fileName));
-            downloadFile(baseDir + File.separator + fileName, new BufferedOutputStream(response.getOutputStream()));
+            response.setHeader("Content-Disposition", "attachment;fileName=" + FileUtils.setFileDownloadHeader(request, file.getName()));
+            downloadFile(pathName, new BufferedOutputStream(response.getOutputStream()));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -139,7 +139,7 @@ public class FileDownloadUtils {
      * @param chunkSize      每个分片的大小，单位byte
      * @param currentChunk   当前分片数-1,0,1,2...如果是-1表示先试探获得文件大小，总分片数,后续持续请求从0开始
      * @param totalChunk     总分片大小，如果是-1表示先试探获得总分片大小，后续持续请求传入返回的总分片大小
-     * @param targetPathName 本次将要存储的分片文件全路径,试探时可以为null
+     * @param targetPathName 本次将要存储的分片文件全路径 xxx/1_xxx.mp4,试探时可以为null
      * @return exists文件是否存在 fileName文件名称 fileSize文件大小 isComplete是否分片下载完成 totalChunk总分片数
      */
     public static Map<String, Object> splitDownloadFileToFile(String pathName, long chunkSize, int currentChunk, int totalChunk, String targetPathName) {
@@ -252,7 +252,7 @@ public class FileDownloadUtils {
             Map<String, Object> objectMap = splitDownloadFileToFile("D:\\xxx.mp4",
                     50 * 1024 * 1024, i, totalChunk, "D:\\" + i + "_" + fileName);
             if (i == totalChunk - 1) {
-                System.out.println("文件下载完成：" + objectMap.get("isComplete"));
+                System.out.println("文件是否下载完成：" + objectMap.get("isComplete"));
             }
         }
 

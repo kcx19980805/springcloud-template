@@ -24,6 +24,16 @@
             <groupId>com.kcx</groupId>
             <artifactId>common</artifactId>
             <version>1.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-amqp</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.amqp</groupId>
+                    <artifactId>spring-rabbit-test</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!--热部署-->
         <dependency>

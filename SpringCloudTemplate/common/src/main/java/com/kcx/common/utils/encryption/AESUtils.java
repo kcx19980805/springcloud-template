@@ -11,6 +11,7 @@ import java.util.Base64;
 
 /**
  * AES加密解密
+ * 对称加密算法
  */
 public class AESUtils {
     /**

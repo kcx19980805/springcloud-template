@@ -1,5 +1,9 @@
 package com.kcx.common.utils.page;
 
+import com.kcx.common.utils.page.requestVo.ReqPageBaseVO;
+import com.kcx.common.utils.page.responseVo.ResPageBaseVO;
+import com.kcx.common.utils.page.responseVo.ResPageDataVO;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
@@ -16,8 +20,8 @@ public class PageUtils {
      * @param req 请求的实体类，继承ReqPageBaseVO
      * @return 响应的分页数据，包括total，data
      */
-    public static ResPageDataVO autoPageData(Supplier<Integer> getTotalMethod,Supplier<List<? extends ResPageBaseVO>> getListMethod,ReqPageBaseVO req){
-        Integer total = getTotalMethod.get();
+    public static ResPageDataVO autoPageData(Supplier<Long> getTotalMethod, Supplier<List<? extends ResPageBaseVO>> getListMethod, ReqPageBaseVO req){
+        Long total = getTotalMethod.get();
         List<? extends ResPageBaseVO> entityList = new ArrayList<>();
         if (total > 0) {
             entityList = getListMethod.get();
@@ -25,7 +29,7 @@ public class PageUtils {
             int limit = req.getLimit();
             if (entityList.size() > 0  && limit > 0) {
                 //当前页码 从0开始
-                int currPage = req.getPage()-1;
+                long currPage = req.getPage()-1;
                 //排序 asc升序 desc降序
                 String order = req.getOrder();
                 for (int i = 0; i < entityList.size(); i++) {

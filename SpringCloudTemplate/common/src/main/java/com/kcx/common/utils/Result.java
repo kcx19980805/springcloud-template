@@ -140,7 +140,7 @@ public class Result<T> implements Serializable {
      * @param rows 执行DML语句返回的受影响行数
      * @return
      */
-    public static Result<String> affectedRows(int rows) {
+    public static Result<String> affectedRows(long rows) {
         return rows > 0 ? Result.success() : Result.error();
     }
 }

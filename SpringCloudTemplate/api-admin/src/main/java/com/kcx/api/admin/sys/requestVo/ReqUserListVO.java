@@ -1,6 +1,6 @@
 package com.kcx.api.admin.sys.requestVo;
 
-import com.kcx.common.utils.page.ReqPageBaseVO;
+import com.kcx.common.utils.page.requestVo.ReqPageBaseVO;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

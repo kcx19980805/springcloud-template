@@ -65,12 +65,13 @@ spring:
     port: 6379
     #数据库
     database: 1
+    password: 123456
   #邮箱
-  mail:
-    host: smtp.qq.com #qq邮箱smtp服务
-    username: 1255753142@qq.com #邮箱用户名
-    password: dpdjhxxtdwhfifac #邮箱smtp服务密码
-    default-encoding: UTF-8
+#  mail:
+#    host: smtp.qq.com #qq邮箱smtp服务
+#    username: 1255753142@qq.com #邮箱用户名
+#    password: dpdjhxxtdwhfifac #邮箱smtp服务密码
+#    default-encoding: UTF-8
 #fegin超时时间
 feign:
   client:

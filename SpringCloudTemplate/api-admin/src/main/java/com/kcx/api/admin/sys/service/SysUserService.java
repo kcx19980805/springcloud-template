@@ -5,7 +5,7 @@ import com.kcx.api.admin.sys.responseVo.ResUserListVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.kcx.api.admin.sys.responseVo.ResUserLoginVO;
 import com.kcx.common.entity.database1.SysUserEntity;
-import com.kcx.common.utils.page.ResPageDataVO;
+import com.kcx.common.utils.page.responseVo.ResPageDataVO;
 
 /**
  * 账号管理(平台)

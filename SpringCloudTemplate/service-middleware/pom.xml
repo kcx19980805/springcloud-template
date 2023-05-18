@@ -25,6 +25,16 @@
             <groupId>com.kcx</groupId>
             <artifactId>common</artifactId>
             <version>1.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-amqp</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.amqp</groupId>
+                    <artifactId>spring-rabbit-test</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!--热部署-->
         <dependency>
@@ -33,36 +43,6 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <!--        &lt;!&ndash;elasticsearch&ndash;&gt;
-        <dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch</artifactId>
-        </dependency>
-        &lt;!&ndash; elasticsearch的客户端 &ndash;&gt;
-        <dependency>
-            <groupId>org.elasticsearch.client</groupId>
-            <artifactId>elasticsearch-rest-high-level-client</artifactId>
-        </dependency>
-        &lt;!&ndash;elasticsearch-spring-data&ndash;&gt;
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-        </dependency>
-        &lt;!&ndash;rabbitmq&ndash;&gt;
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-rabbit-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        &lt;!&ndash;mongodb-spring-data&ndash;&gt;
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>-->
     </dependencies>
 
     <build>

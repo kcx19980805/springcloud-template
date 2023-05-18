@@ -111,5 +111,6 @@ mybatis-plus:
 logging:
   level:
     com.kcx.service.middleware: debug
+    org.springframework.data.mongodb.core.MongoTemplate: debug
 #-------------------------------------------------自定义属性--------------------------------------------------
 

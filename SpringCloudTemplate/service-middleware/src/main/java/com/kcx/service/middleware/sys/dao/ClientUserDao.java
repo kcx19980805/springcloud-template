@@ -11,6 +11,6 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface ClientUserDao extends BaseMapper<ClientUserEntity> {
 
-
     int updateNickName(ReqClientUserUpdateVO req);
+
 }

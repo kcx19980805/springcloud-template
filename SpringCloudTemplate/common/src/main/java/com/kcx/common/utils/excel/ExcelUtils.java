@@ -35,7 +35,7 @@ public class ExcelUtils {
      * @param response 网页响应对象
      * @param ? 属性带有@ExcelProperty注解的实体类
      */
-    public static <T> void exportExcelToWeb(String fileName,Map<String,List<? extends Object>> entityListMap, HttpServletResponse response){
+    public static void exportExcelToWeb(String fileName, Map<String,List<? extends Object>> entityListMap, HttpServletResponse response){
         ExcelWriter excelWriter = null;
         try {
             response.setContentType("application/vnd.ms-excel");

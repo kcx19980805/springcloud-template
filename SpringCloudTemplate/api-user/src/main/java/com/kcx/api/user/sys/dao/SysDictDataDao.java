@@ -30,6 +30,6 @@ public interface SysDictDataDao extends BaseMapper<SysDictDataEntity> {
      * @param req
      * @return
      */
-    int listTotal(ReqSysDictDataListVO req);
+    long listTotal(ReqSysDictDataListVO req);
 
 }

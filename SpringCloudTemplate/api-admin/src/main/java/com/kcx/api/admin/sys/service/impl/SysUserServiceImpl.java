@@ -19,15 +19,13 @@ import com.kcx.common.exception.CustomException;
 import com.kcx.common.utils.Result;
 import com.kcx.common.utils.encryption.SHAUtils;
 import com.kcx.common.utils.page.PageUtils;
-import com.kcx.common.utils.page.ResPageDataVO;
+import com.kcx.common.utils.page.responseVo.ResPageDataVO;
 import com.kcx.common.utils.token.JWTUtils;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 账号管理(平台)
@@ -52,7 +50,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUserEntity> i
     public ResUserLoginVO userLogin(ReqUserLoginVO req) {
         ReqSysDictDataListVO reqSysDictDataListVO = new ReqSysDictDataListVO();
         reqSysDictDataListVO.setLimit(10);
-        reqSysDictDataListVO.setPage(1);
+        reqSysDictDataListVO.setPage(1L);
         Result<ResPageDataVO<ResSysDictDataListVO>> resPageDataVOResult = apiUserFeign.list(reqSysDictDataListVO);
         log.info("远程调用api-user结果："+resPageDataVOResult);
         if(resPageDataVOResult.getCode() != HttpStatus.SUCCESS){

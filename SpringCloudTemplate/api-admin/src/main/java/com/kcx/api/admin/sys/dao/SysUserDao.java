@@ -33,6 +33,6 @@ public interface SysUserDao extends BaseMapper<SysUserEntity> {
      * @param req
      * @return
      */
-    int userListTotal(ReqUserListVO req);
+    long userListTotal(ReqUserListVO req);
 }
 

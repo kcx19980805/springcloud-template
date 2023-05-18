@@ -20,7 +20,7 @@
     </select>
 
     <!--    账号管理-列表-查询-总数-->
-    <select id="userListTotal" resultType="java.lang.Integer">
+    <select id="userListTotal" resultType="long">
         select
         count(1)
         from `sys_user` as su

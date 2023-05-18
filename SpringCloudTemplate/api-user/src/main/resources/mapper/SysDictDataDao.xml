@@ -12,7 +12,7 @@
         </if>
     </select>
 
-    <select id="listTotal" resultType="java.lang.Integer">
+    <select id="listTotal" resultType="long">
         select
             count(1)
         from sys_dict_data

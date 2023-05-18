@@ -64,13 +64,43 @@ spring:
     #端口，默认为6379
     port: 6379
     #数据库
-    database: 1
+    database: 4
+    password: 123456
+  #rabbitmq配置
+  rabbitmq:
+    port: 5672
+    host: 127.0.0.1
+    username: admin
+    password: admin
+    virtual-host: /
+    #集群连接主节点
+    #addresses: 47.104.141.27:5672
+    #生产者确认机制，确保发送消息成功，否则rabbitTemplate.setConfirmCallback无效
+    #NONE值是禁用发布确认模式，是默认值，CORRELATED值是发布消息成功到交换器后会触发回调方法
+    #SIMPLE值经测试有两种效果，其一效果和CORRELATED值一样会触发回调方法，其二在发布消息成功后使用rabbitTemplate
+    #调用waitForConfirms或waitForConfirmsOrDie方法等待broker节点返回发送结果，根据返回结果来判定下一步的逻辑
+    #，要注意的点是waitForConfirmsOrDie方法如果返回false则会关闭channel，则接下来无法发送消息到broker;
+    publisher-confirm-type: correlated
+    listener:
+      simple:
+        #消费者确认机制，这里是开启手动ack，让消费者去控制MQ的消息的重发和删除和转移
+        acknowledge-mode: manual
+        retry:
+          #开启重试
+          enabled: true
+          #最大重试次数
+          max-attempts: 3
+          #重试间隔时间，毫秒
+          initial-interval: 2000
+      direct:
+        #重试超过最大重试次数是否丢弃（false不丢弃时需要写相应代码将该消息加入死信队列）
+        default-requeue-rejected: true
   #邮箱
-  mail:
-    host: smtp.qq.com #qq邮箱smtp服务
-    username: 1255753142@qq.com #邮箱用户名
-    password: dpdjhxxtdwhfifac #邮箱smtp服务密码
-    default-encoding: UTF-8
+#  mail:
+#    host: smtp.qq.com #qq邮箱smtp服务
+#    username: 1255753142@qq.com #邮箱用户名
+#    password: dpdjhxxtdwhfifac #邮箱smtp服务密码
+#    default-encoding: UTF-8
 #fegin超时时间
 feign:
   client:

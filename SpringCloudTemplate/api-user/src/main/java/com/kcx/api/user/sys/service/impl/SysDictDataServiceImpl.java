@@ -7,23 +7,16 @@ import com.kcx.api.user.sys.requestVo.ReqSysDictDataListVO;
 import com.kcx.api.user.sys.responseVo.ResSysDictDataListVO;
 import com.kcx.api.user.sys.service.SysDictDataService;
 import com.kcx.common.entity.database1.SysDictDataEntity;
-import com.kcx.common.entityFegin.job.requestVo.ReqClientUserVO;
-import com.kcx.common.entityFegin.job.responseVo.ResClientUserInfoVO;
-import com.kcx.common.utils.Result;
 import com.kcx.common.utils.page.PageUtils;
-import com.kcx.common.utils.page.ResPageDataVO;
-import com.kcx.common.utils.sql.SqlUtils;
-import io.seata.spring.annotation.GlobalTransactional;
+import com.kcx.common.utils.page.responseVo.ResPageDataVO;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.lang.reflect.Field;
 
 
 @Slf4j
-@Service("sysDictDataServiceImpl")
+@Service("sysDictDataService")
 public class SysDictDataServiceImpl extends ServiceImpl<SysDictDataDao, SysDictDataEntity> implements SysDictDataService {
 
     @Resource
@@ -32,10 +25,10 @@ public class SysDictDataServiceImpl extends ServiceImpl<SysDictDataDao, SysDictD
 
     @Override
     public ResPageDataVO<ResSysDictDataListVO> list(ReqSysDictDataListVO req) {
-        ReqClientUserVO reqClientUserVO = new ReqClientUserVO();
+/*        ReqClientUserVO reqClientUserVO = new ReqClientUserVO();
         reqClientUserVO.setUserId("1");
         Result<ResClientUserInfoVO> userInfo = jobFeign.getUserInfo(reqClientUserVO);
-        log.info("远程调用job结果："+userInfo);
+        log.info("远程调用job结果："+userInfo);*/
         return PageUtils.autoPageData(()->baseMapper.listTotal(req),()->baseMapper.list(req),req);
     }
 }

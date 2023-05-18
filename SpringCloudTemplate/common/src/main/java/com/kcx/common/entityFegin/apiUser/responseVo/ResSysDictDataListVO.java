@@ -1,6 +1,6 @@
 package com.kcx.common.entityFegin.apiUser.responseVo;
 
-import com.kcx.common.utils.page.ResPageBaseVO;
+import com.kcx.common.utils.page.responseVo.ResPageBaseVO;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

@@ -3,12 +3,9 @@ package com.kcx.api.admin.sys.feign;
 import com.kcx.common.entityFegin.apiUser.requestVo.ReqSysDictDataListVO;
 import com.kcx.common.entityFegin.apiUser.responseVo.ResSysDictDataListVO;
 import com.kcx.common.utils.Result;
-import com.kcx.common.utils.page.ResPageDataVO;
+import com.kcx.common.utils.page.responseVo.ResPageDataVO;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.cloud.openfeign.SpringQueryMap;
 import org.springframework.stereotype.Component;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
