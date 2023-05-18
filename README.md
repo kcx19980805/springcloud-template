@@ -8,7 +8,7 @@ springcloud + springcloudalibaba + swagger +mybatisplus + mysql8.0 +xxl-job
 
 ## 项目整体架构图
 
-计划设计如下，目前暂时只搭建了后端，且rabbimq，redis,es,mongo中间件的crud接口在service-middleware 中还没有实现
+计划设计如下，目前暂时只搭建了后端
 
 整个分布式框架协调调用，动态数据源，分布式事务等基本实现。
 
